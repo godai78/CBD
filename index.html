@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Comic Database</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 20px;
+			background-color: #f5f5f5;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		.search-section {
+			margin-bottom: 20px;
+			padding: 20px;
+			background-color: #f8f9fa;
+			border-radius: 8px;
+		}
+		.search-group {
+			margin-bottom: 15px;
+			position: relative;
+		}
+		.search-group input {
+			width: 100%;
+			padding: 8px;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			font-size: 14px;
+		}
+		.suggestions {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			background: white;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			max-height: 200px;
+			overflow-y: auto;
+			z-index: 1000;
+			display: none;
+		}
+		.suggestion-item {
+			padding: 8px;
+			cursor: pointer;
+		}
+		.suggestion-item:hover {
+			background-color: #f0f0f0;
+		}
+		.button-group {
+			margin: 20px 0;
+			display: flex;
+			gap: 10px;
+		}
+		button, .add-btn {
+			padding: 10px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 14px;
+			transition: background-color 0.3s;
+		}
+		button {
+			background-color: #007bff;
+			color: white;
+		}
+		button:hover {
+			background-color: #0056b3;
+		}
+		.add-btn {
+			background-color: #28a745;
+			color: white;
+			text-decoration: none;
+			display: inline-block;
+		}
+		.add-btn:hover {
+			background-color: #218838;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 20px;
+		}
+		th, td {
+			padding: 12px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #f8f9fa;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		th:hover {
+			background-color: #e9ecef;
+		}
+		tr:hover {
+			background-color: #f5f5f5;
+		}
+		.edit-btn {
+			background-color: #FFC107;
+			color: #000;
+			text-decoration: none;
+			display: inline-block;
+			padding: 8px 16px;
+			border-radius: 4px;
+		}
+		.edit-btn:hover {
+			background-color: #FFA000;
+		}
+		select {
+			width: 100%;
+			padding: 8px;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Comic Collection Manager <span id="record-count"></span></h1>
+		</div>
+		
+		<div class="search-section">
+			<h2>Search Comics</h2>
+			<div class="search-group">
+				<input type="text" id="seriesSearch" placeholder="Search by series name..." oninput="updateSeriesSuggestions()" onkeypress="handleKeyPress(event)">
+				<div id="seriesSuggestions" class="suggestions"></div>
+			</div>
+			<div class="search-group">
+				<input type="text" id="issueTitleSearch" placeholder="Search by issue title..." oninput="updateIssueTitleSuggestions()" onkeypress="handleKeyPress(event)">
+				<div id="issueTitleSuggestions" class="suggestions"></div>
+			</div>
+			<div class="search-group">
+				<input type="text" id="writerSearch" placeholder="Search by writer..." oninput="updateWriterSuggestions()" onkeypress="handleKeyPress(event)">
+				<div id="writerSuggestions" class="suggestions"></div>
+			</div>
+			<div class="search-group">
+				<input type="text" id="artistSearch" placeholder="Search by artist..." oninput="updateArtistSuggestions()" onkeypress="handleKeyPress(event)">
+				<div id="artistSuggestions" class="suggestions"></div>
+			</div>
+			<div class="search-group">
+				<select id="languageSearch" onchange="searchComics()">
+					<option value="">All Languages</option>
+					<option value="English">English</option>
+					<option value="Japanese">Japanese</option>
+					<option value="French">French</option>
+				</select>
+			</div>
+			<div class="search-group">
+				<select id="publisherSearch" onchange="searchComics()">
+					<option value="">All Publishers</option>
+					<option value="Marvel Comics">Marvel Comics</option>
+					<option value="DC Comics">DC Comics</option>
+					<option value="Kodansha">Kodansha</option>
+					<option value="Casterman">Casterman</option>
+				</select>
+			</div>
+			<div class="search-group">
+				<select id="yearSearch" onchange="searchComics()">
+					<option value="">All Years</option>
+					<option value="1929">1929</option>
+					<option value="1940">1940</option>
+					<option value="1963">1963</option>
+					<option value="1982">1982</option>
+					<option value="1986">1986</option>
+				</select>
+			</div>
+			<div class="button-group">
+				<button onclick="searchComics()">Search</button>
+				<a href="add.html" class="add-btn">Add New Comic</a>
+				<button onclick="importFromGoogleSheets()">Import from Google Sheets</button>
+				<button onclick="exportToCSV()">Export to CSV</button>
+			</div>
+		</div>
+
+		<div class="comics-table">
+			<table>
+				<thead>
+					<tr>
+						<th onclick="sortTable('seriesTitle')">Series Title</th>
+						<th onclick="sortTable('issueTitle')">Issue Title</th>
+						<th onclick="sortTable('issueNumber')">Issue Number</th>
+						<th onclick="sortTable('writer')">Writer</th>
+						<th onclick="sortTable('artists')">Artists</th>
+						<th onclick="sortTable('language')">Language</th>
+						<th onclick="sortTable('publisher')">Publisher</th>
+						<th onclick="sortTable('publicationYear')">Year</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody id="comicsTableBody">
+					<!-- Comics will be loaded here -->
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<script>
+		let comicDatabase = [];
+		let currentSort = { field: null, direction: 'asc' };
+
+		// Function to load comics from server
+		async function loadComicsFromServer() {
+			try {
+				const response = await fetch('/api/comics');
+				if (!response.ok) throw new Error('Failed to load comics');
+				comicDatabase = await response.json();
+				comicDatabase.sort((a, b) => a.seriesTitle.localeCompare(b.seriesTitle));
+				displayComics(comicDatabase);
+				updateRecordCount(comicDatabase.length);
+			} catch (error) {
+				console.error('Error loading comics:', error);
+				document.getElementById('comicsTableBody').innerHTML = '<tr><td colspan="9">Error loading comics. Please try again.</td></tr>';
+			}
+		}
+
+		// Function to display comics in the table
+		function displayComics(comics) {
+			const tbody = document.getElementById('comicsTableBody');
+			tbody.innerHTML = comics.map(comic => `
+				<tr>
+					<td>${comic.seriesTitle}</td>
+					<td>${comic.issueTitle}</td>
+					<td>${comic.issueNumber}</td>
+					<td>${Array.isArray(comic.writers) ? comic.writers.join(', ') : comic.writer}</td>
+					<td>${comic.artists.join(', ')}</td>
+					<td>${comic.language}</td>
+					<td>${comic.publisher}</td>
+					<td>${comic.publicationYear}</td>
+					<td>
+						<a href="edit.html?id=${comic.id}" class="edit-btn">Edit</a>
+					</td>
+				</tr>
+			`).join('');
+		}
+
+		// Function to sort table
+		function sortTable(field) {
+			const direction = currentSort.field === field && currentSort.direction === 'asc' ? 'desc' : 'asc';
+			currentSort = { field, direction };
+
+			const sortedComics = [...comicDatabase].sort((a, b) => {
+				let aValue = a[field];
+				let bValue = b[field];
+
+				// Handle arrays (writers and artists)
+				if (Array.isArray(aValue)) {
+					aValue = aValue.join(', ');
+					bValue = bValue.join(', ');
+				}
+
+				// Handle numeric values
+				if (field === 'issueNumber' || field === 'publicationYear') {
+					return direction === 'asc' ? aValue - bValue : bValue - aValue;
+				}
+
+				// Handle string values
+				if (aValue < bValue) return direction === 'asc' ? -1 : 1;
+				if (aValue > bValue) return direction === 'asc' ? 1 : -1;
+				return 0;
+			});
+
+			displayComics(sortedComics);
+		}
+
+		// Function to update series suggestions
+		function updateSeriesSuggestions() {
+			const input = document.getElementById('seriesSearch');
+			const suggestions = document.getElementById('seriesSuggestions');
+			const value = input.value.toLowerCase();
+
+			if (value.length < 2) {
+				suggestions.style.display = 'none';
+				return;
+			}
+
+			const uniqueSeries = [...new Set(comicDatabase.map(comic => comic.seriesTitle))];
+			const filtered = uniqueSeries.filter(series => 
+				series.toLowerCase().includes(value)
+			);
+
+			suggestions.innerHTML = filtered.map(series => `
+				<div class="suggestion-item" onclick="selectSeries('${series}')">${series}</div>
+			`).join('');
+
+			suggestions.style.display = filtered.length > 0 ? 'block' : 'none';
+		}
+
+		// Function to update issue title suggestions
+		function updateIssueTitleSuggestions() {
+			const input = document.getElementById('issueTitleSearch');
+			const suggestions = document.getElementById('issueTitleSuggestions');
+			const value = input.value.toLowerCase();
+
+			if (value.length < 2) {
+				suggestions.style.display = 'none';
+				return;
+			}
+
+			const uniqueTitles = [...new Set(comicDatabase.map(comic => comic.issueTitle))];
+			const filtered = uniqueTitles.filter(title => 
+				title.toLowerCase().includes(value)
+			);
+
+			suggestions.innerHTML = filtered.map(title => `
+				<div class="suggestion-item" onclick="selectIssueTitle('${title}')">${title}</div>
+			`).join('');
+
+			suggestions.style.display = filtered.length > 0 ? 'block' : 'none';
+		}
+
+		// Function to update writer suggestions
+		function updateWriterSuggestions() {
+			const input = document.getElementById('writerSearch');
+			const suggestions = document.getElementById('writerSuggestions');
+			const value = input.value.toLowerCase();
+
+			if (value.length < 2) {
+				suggestions.style.display = 'none';
+				return;
+			}
+
+			const allWriters = comicDatabase.flatMap(comic => 
+				Array.isArray(comic.writers) ? comic.writers : [comic.writer]
+			);
+			const uniqueWriters = [...new Set(allWriters)];
+			const filtered = uniqueWriters.filter(writer => 
+				writer.toLowerCase().includes(value)
+			);
+
+			suggestions.innerHTML = filtered.map(writer => `
+				<div class="suggestion-item" onclick="selectWriter('${writer}')">${writer}</div>
+			`).join('');
+
+			suggestions.style.display = filtered.length > 0 ? 'block' : 'none';
+		}
+
+		// Function to update artist suggestions
+		function updateArtistSuggestions() {
+			const input = document.getElementById('artistSearch');
+			const suggestions = document.getElementById('artistSuggestions');
+			const value = input.value.toLowerCase();
+
+			if (value.length < 2) {
+				suggestions.style.display = 'none';
+				return;
+			}
+
+			const allArtists = comicDatabase.flatMap(comic => comic.artists);
+			const uniqueArtists = [...new Set(allArtists)];
+			const filtered = uniqueArtists.filter(artist => 
+				artist.toLowerCase().includes(value)
+			);
+
+			suggestions.innerHTML = filtered.map(artist => `
+				<div class="suggestion-item" onclick="selectArtist('${artist}')">${artist}</div>
+			`).join('');
+
+			suggestions.style.display = filtered.length > 0 ? 'block' : 'none';
+		}
+
+		// Function to select a series from suggestions
+		function selectSeries(series) {
+			document.getElementById('seriesSearch').value = series;
+			document.getElementById('seriesSuggestions').style.display = 'none';
+			searchComics();
+		}
+
+		// Function to select an issue title from suggestions
+		function selectIssueTitle(title) {
+			document.getElementById('issueTitleSearch').value = title;
+			document.getElementById('issueTitleSuggestions').style.display = 'none';
+			searchComics();
+		}
+
+		// Function to select a writer from suggestions
+		function selectWriter(writer) {
+			document.getElementById('writerSearch').value = writer;
+			document.getElementById('writerSuggestions').style.display = 'none';
+			searchComics();
+		}
+
+		// Function to select an artist from suggestions
+		function selectArtist(artist) {
+			document.getElementById('artistSearch').value = artist;
+			document.getElementById('artistSuggestions').style.display = 'none';
+			searchComics();
+		}
+
+		// Function to handle key press events
+		function handleKeyPress(event) {
+			if (event.key === 'Enter') {
+				event.preventDefault();
+				searchComics();
+			}
+		}
+
+		// Function to search comics
+		function searchComics() {
+			const seriesSearch = document.getElementById('seriesSearch').value.toLowerCase();
+			const issueTitleSearch = document.getElementById('issueTitleSearch').value.toLowerCase();
+			const writerSearch = document.getElementById('writerSearch').value.toLowerCase().split(',').map(w => w.trim());
+			const artistSearch = document.getElementById('artistSearch').value.toLowerCase().split(',').map(a => a.trim());
+			const languageSearch = document.getElementById('languageSearch').value;
+			const publisherSearch = document.getElementById('publisherSearch').value;
+			const yearSearch = document.getElementById('yearSearch').value;
+
+			// If all search fields are empty, show all comics
+			if (!seriesSearch && !issueTitleSearch && writerSearch[0] === '' && 
+				artistSearch[0] === '' && !languageSearch && !publisherSearch && !yearSearch) {
+				displayComics(comicDatabase);
+				return;
+			}
+
+			const filteredComics = comicDatabase.filter(comic => {
+				const matchesSeries = comic.seriesTitle.toLowerCase().includes(seriesSearch);
+				const matchesIssueTitle = comic.issueTitle.toLowerCase().includes(issueTitleSearch);
+				
+				// Check if all searched writers are found in the comic's writers
+				const matchesWriters = writerSearch[0] === '' || 
+					writerSearch.every(writer => 
+						(Array.isArray(comic.writers) ? comic.writers : [comic.writer]).some(w => w.toLowerCase().includes(writer))
+					);
+				
+				// Check if all searched artists are found in the comic's artists
+				const matchesArtists = artistSearch[0] === '' || 
+					artistSearch.every(artist => 
+						comic.artists.some(a => a.toLowerCase().includes(artist))
+					);
+				
+				const matchesLanguage = !languageSearch || comic.language === languageSearch;
+				const matchesPublisher = !publisherSearch || comic.publisher === publisherSearch;
+				const matchesYear = !yearSearch || comic.publicationYear === parseInt(yearSearch);
+
+				return matchesSeries && matchesIssueTitle && matchesWriters && matchesArtists && 
+					   matchesLanguage && matchesPublisher && matchesYear;
+			});
+
+			// Maintain current sort if exists
+			if (currentSort.field) {
+				const direction = currentSort.direction;
+				const field = currentSort.field;
+				filteredComics.sort((a, b) => {
+					let aValue = a[field];
+					let bValue = b[field];
+
+					// Handle arrays (writers and artists)
+					if (Array.isArray(aValue)) {
+						aValue = aValue.join(', ');
+						bValue = bValue.join(', ');
+					}
+
+					// Handle numeric values
+					if (field === 'issueNumber' || field === 'publicationYear') {
+						return direction === 'asc' ? aValue - bValue : bValue - aValue;
+					}
+
+					// Handle string values
+					if (aValue < bValue) return direction === 'asc' ? -1 : 1;
+					if (aValue > bValue) return direction === 'asc' ? 1 : -1;
+					return 0;
+				});
+			}
+
+			displayComics(filteredComics);
+		}
+
+		// Function to import from Google Sheets
+		async function importFromGoogleSheets() {
+			try {
+				const response = await fetch('/api/import', {
+					method: 'POST'
+				});
+				if (!response.ok) throw new Error('Import failed');
+				const result = await response.json();
+				alert(result.message);
+				await loadComicsFromServer();
+			} catch (error) {
+				console.error('Error importing comics:', error);
+				alert('Error importing comics. Please try again.');
+			}
+		}
+
+		// Function to export to CSV
+		function exportToCSV() {
+			// Define CSV headers
+			const headers = [
+				'Series Title',
+				'Issue Title',
+				'Issue Number',
+				'Writers',
+				'Artists',
+				'Language',
+				'Publisher',
+				'Publication Year'
+			];
+
+			// Convert comics to CSV rows
+			const rows = comicDatabase.map(comic => [
+				`"${comic.seriesTitle}"`,
+				`"${comic.issueTitle}"`,
+				comic.issueNumber,
+				`"${(Array.isArray(comic.writers) ? comic.writers : [comic.writer]).join(', ')}"`,
+				`"${comic.artists.join(', ')}"`,
+				`"${comic.language}"`,
+				`"${comic.publisher}"`,
+				comic.publicationYear
+			]);
+
+			// Combine headers and rows
+			const csvContent = [
+				headers.join(','),
+				...rows.map(row => row.join(','))
+			].join('\n');
+
+			// Create and trigger download
+			const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+			const link = document.createElement('a');
+			const url = URL.createObjectURL(blob);
+			link.setAttribute('href', url);
+			link.setAttribute('download', 'comic_collection.csv');
+			link.style.visibility = 'hidden';
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+		}
+
+		// Close suggestions when clicking outside
+		document.addEventListener('click', function(event) {
+			if (!event.target.matches('input') && !event.target.matches('.suggestion-item')) {
+				document.querySelectorAll('.suggestions').forEach(suggestion => {
+					suggestion.style.display = 'none';
+				});
+			}
+		});
+
+		// Function to update record count
+		function updateRecordCount(count) {
+			const recordCountElement = document.getElementById('record-count');
+			recordCountElement.textContent = `(${count} records)`;
+			recordCountElement.style.fontSize = '0.6em';
+			recordCountElement.style.color = '#666';
+			recordCountElement.style.marginLeft = '10px';
+		}
+
+		// Initial load of comics
+		loadComicsFromServer();
+	</script>
+</body>
+</html> 

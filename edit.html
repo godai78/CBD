@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Edit Comic</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 20px;
+			background-color: #f5f5f5;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		.form-group {
+			margin-bottom: 15px;
+		}
+		.form-group label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+		.form-group input {
+			width: 100%;
+			padding: 8px;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			font-size: 14px;
+		}
+		.button-group {
+			margin-top: 20px;
+			display: flex;
+			gap: 10px;
+		}
+		button {
+			padding: 10px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 14px;
+		}
+		.save-btn {
+			background-color: #28a745;
+			color: white;
+		}
+		.save-btn:hover {
+			background-color: #218838;
+		}
+		.cancel-btn {
+			background-color: #dc3545;
+			color: white;
+		}
+		.cancel-btn:hover {
+			background-color: #c82333;
+		}
+		.back-btn {
+			display: inline-block;
+			margin-bottom: 20px;
+			color: #007bff;
+			text-decoration: none;
+		}
+		.back-btn:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<a href="index.html" class="back-btn">← Back to Main Page</a>
+		<h1>Edit Comic</h1>
+		<form id="editComicForm">
+			<input type="hidden" id="editId">
+			<div class="form-group">
+				<label for="editSeriesTitle">Series Title:</label>
+				<input type="text" id="editSeriesTitle" required>
+			</div>
+			<div class="form-group">
+				<label for="editIssueTitle">Issue Title:</label>
+				<input type="text" id="editIssueTitle" required>
+			</div>
+			<div class="form-group">
+				<label for="editIssueNumber">Issue Number:</label>
+				<input type="number" id="editIssueNumber" required>
+			</div>
+			<div class="form-group">
+				<label for="editWriter">Writers (comma-separated):</label>
+				<input type="text" id="editWriter" required>
+			</div>
+			<div class="form-group">
+				<label for="editArtists">Artists (comma-separated):</label>
+				<input type="text" id="editArtists" required>
+			</div>
+			<div class="form-group">
+				<label for="editLanguage">Language:</label>
+				<input type="text" id="editLanguage" required>
+			</div>
+			<div class="form-group">
+				<label for="editPublisher">Publisher:</label>
+				<input type="text" id="editPublisher" required>
+			</div>
+			<div class="form-group">
+				<label for="editPublicationYear">Publication Year:</label>
+				<input type="number" id="editPublicationYear" required>
+			</div>
+			<div class="button-group">
+				<button type="submit" class="save-btn">Save Changes</button>
+				<button type="button" class="cancel-btn" onclick="window.location.href='index.html'">Cancel</button>
+			</div>
+		</form>
+	</div>
+
+	<script>
+		// Get comic ID from URL parameters
+		async function loadComic() {
+			const urlParams = new URLSearchParams(window.location.search);
+			const id = urlParams.get('id');
+			
+			if (!id) {
+				alert('No comic ID provided');
+				window.location.href = 'index.html';
+				return;
+			}
+
+			try {
+				const response = await fetch(`/api/comics/${id}`);
+				if (!response.ok) {
+					throw new Error(`HTTP error! status: ${response.status}`);
+				}
+				const comic = await response.json();
+				console.log('Loaded comic:', comic); // Debug log
+				
+				document.getElementById('editId').value = comic.id;
+				document.getElementById('editSeriesTitle').value = comic.seriesTitle;
+				document.getElementById('editIssueTitle').value = comic.issueTitle;
+				document.getElementById('editIssueNumber').value = comic.issueNumber;
+				document.getElementById('editWriter').value = Array.isArray(comic.writers) ? comic.writers.join(', ') : comic.writer;
+				document.getElementById('editArtists').value = comic.artists.join(', ');
+				document.getElementById('editLanguage').value = comic.language;
+				document.getElementById('editPublisher').value = comic.publisher;
+				document.getElementById('editPublicationYear').value = comic.publicationYear;
+			} catch (error) {
+				console.error('Error loading comic:', error);
+				alert('Error loading comic. Please try again.');
+				window.location.href = 'index.html';
+			}
+		}
+
+		// Handle form submission
+		document.getElementById('editComicForm').addEventListener('submit', async function(e) {
+			e.preventDefault();
+
+			const id = document.getElementById('editId').value;
+			const updatedComic = {
+				seriesTitle: document.getElementById('editSeriesTitle').value,
+				issueTitle: document.getElementById('editIssueTitle').value,
+				issueNumber: parseInt(document.getElementById('editIssueNumber').value),
+				writers: document.getElementById('editWriter').value.split(',').map(writer => writer.trim()).filter(writer => writer),
+				artists: document.getElementById('editArtists').value.split(',').map(artist => artist.trim()).filter(artist => artist),
+				language: document.getElementById('editLanguage').value,
+				publisher: document.getElementById('editPublisher').value,
+				publicationYear: parseInt(document.getElementById('editPublicationYear').value)
+			};
+
+			try {
+				const response = await fetch(`/api/comics/${id}`, {
+					method: 'PUT',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify(updatedComic)
+				});
+
+				if (!response.ok) throw new Error('Failed to update comic');
+
+				alert('Comic updated successfully!');
+				window.location.href = 'index.html';
+			} catch (error) {
+				console.error('Error updating comic:', error);
+				alert('Error updating comic. Please try again.');
+			}
+		});
+
+		// Load comic data when page loads
+		loadComic();
+	</script>
+</body>
+</html> 
