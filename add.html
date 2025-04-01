@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate="app.pageTitle">Add New Comic</title>
+    <title data-translate="comic.title.add">Add New Comic</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -88,46 +88,41 @@
         <h1 data-translate="comic.title.add">Add New Comic</h1>
         <form id="comicForm" onsubmit="saveComic(event)">
             <div class="form-group">
-                <label for="seriesTitle" data-translate="comic.fields.series">Series Title:</label>
-                <input type="text" id="seriesTitle" required>
+                <label for="series" data-translate="comic.fields.series">Series</label>
+                <input type="text" id="series" required>
             </div>
             <div class="form-group">
-                <label for="issueTitle" data-translate="comic.fields.issueTitle">Issue Title:</label>
-                <input type="text" id="issueTitle" required>
+                <label for="title" data-translate="comic.fields.title">Title</label>
+                <input type="text" id="title" required>
             </div>
             <div class="form-group">
-                <label for="issueNumber" data-translate="comic.fields.issueNumber">Issue Number:</label>
-                <input type="number" id="issueNumber" min="1">
+                <label for="number" data-translate="comic.fields.number">Number</label>
+                <input type="number" id="number" required>
             </div>
             <div class="form-group">
-                <label for="writers" data-translate="comic.fields.writers">Writers:</label>
-                <input type="text" id="writers" placeholder="" data-translate-attr="placeholder:comic.form.writersHint">
+                <label for="writers" data-translate="comic.fields.writers">Writers</label>
+                <input type="text" id="writers" data-translate-placeholder="comic.form.writersHint">
             </div>
             <div class="form-group">
-                <label for="artists" data-translate="comic.fields.artists">Artists:</label>
-                <input type="text" id="artists" placeholder="" data-translate-attr="placeholder:comic.form.artistsHint" required>
+                <label for="artists" data-translate="comic.fields.artists">Artists</label>
+                <input type="text" id="artists" data-translate-placeholder="comic.form.artistsHint">
             </div>
             <div class="form-group">
-                <label for="language" data-translate="comic.fields.language">Language:</label>
-                <input type="text" id="language" list="languageList" required>
-                <datalist id="languageList">
-                    <option value="English">
-                    <option value="Polish">
-                    <option value="German">
-                    <option value="Swedish">
-                </datalist>
+                <label for="language" data-translate="comic.fields.language">Language</label>
+                <input type="text" id="language" list="languages">
+                <datalist id="languages"></datalist>
             </div>
             <div class="form-group">
-                <label for="publisher" data-translate="comic.fields.publisher">Publisher:</label>
-                <input type="text" id="publisher" required>
+                <label for="publisher" data-translate="comic.fields.publisher">Publisher</label>
+                <input type="text" id="publisher">
             </div>
             <div class="form-group">
-                <label for="publicationYear" data-translate="comic.fields.year">Publication Year:</label>
-                <input type="number" id="publicationYear" min="1900" max="2024" required>
+                <label for="year" data-translate="comic.fields.year">Year</label>
+                <input type="number" id="year">
             </div>
             <div class="button-group">
-                <button type="submit" data-translate="comic.actions.save">Save Comic</button>
-                <button type="button" onclick="window.location.href='index.html'" data-translate="comic.actions.cancel">Cancel</button>
+                <button type="submit" class="btn btn-primary" data-translate="comic.actions.save">Save Comic</button>
+                <a href="/" class="btn btn-secondary" data-translate="comic.actions.cancel">Cancel</a>
             </div>
         </form>
     </div>
@@ -135,21 +130,77 @@
     <script>
         // Load translations when the page loads
         document.addEventListener('DOMContentLoaded', async () => {
-            await loadTranslations();
+            try {
+                // Get the saved language from localStorage (set by main page)
+                const savedLang = localStorage.getItem('selectedLanguage') || 'en';
+                
+                // Fetch translations
+                const response = await fetch('/translations');
+                if (!response.ok) throw new Error('Failed to load translations');
+                const data = await response.json();
+                
+                // Set up translations
+                window.translations = data.translations;
+                window.availableLanguages = data.availableLanguages;
+                
+                // Override translatePage to use saved language
+                window.translatePage = function() {
+                    const currentLang = localStorage.getItem('selectedLanguage') || 'en';
+                    const translations = window.translations[currentLang];
+
+                    if (!translations) {
+                        console.error('No translations found for language:', currentLang);
+                        return;
+                    }
+
+                    // Translate all elements with data-translate attribute
+                    document.querySelectorAll('[data-translate]').forEach(element => {
+                        const key = element.getAttribute('data-translate');
+                        const translation = getTranslation(translations, key);
+                        if (translation) {
+                            element.textContent = translation;
+                        }
+                    });
+
+                    // Translate all elements with data-translate-placeholder attribute
+                    document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+                        const key = element.getAttribute('data-translate-placeholder');
+                        const translation = getTranslation(translations, key);
+                        if (translation) {
+                            element.placeholder = translation;
+                        }
+                    });
+                };
+                
+                // Apply translations
+                translatePage();
+                
+                // Set up language datalist
+                const languagesDatalist = document.getElementById('languages');
+                if (languagesDatalist) {
+                    availableLanguages.forEach(lang => {
+                        const option = document.createElement('option');
+                        option.value = lang.name;
+                        languagesDatalist.appendChild(option);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading translations:', error);
+            }
         });
 
         // Handle form submission
         async function saveComic(event) {
             event.preventDefault();
             const formData = {
-                seriesTitle: document.getElementById('seriesTitle').value,
-                issueTitle: document.getElementById('issueTitle').value,
-                issueNumber: parseInt(document.getElementById('issueNumber').value) || 1,
+                series: document.getElementById('series').value,
+                title: document.getElementById('title').value,
+                number: parseInt(document.getElementById('number').value) || 1,
                 writers: document.getElementById('writers').value.split(',').map(w => w.trim()),
                 artists: document.getElementById('artists').value.split(',').map(a => a.trim()),
                 language: document.getElementById('language').value,
                 publisher: document.getElementById('publisher').value,
-                publicationYear: parseInt(document.getElementById('publicationYear').value)
+                year: parseInt(document.getElementById('year').value)
             };
 
             try {
