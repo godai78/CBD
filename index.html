@@ -136,28 +136,39 @@
 			text-align: left;
 			border-bottom: 1px solid #ddd;
 		}
+		th:last-child, td:last-child {
+			width: 70px;
+			padding: 4px;
+			text-align: center;
+		}
 		th {
 			background-color: #f8f9fa;
-			font-weight: bold;
+			font-weight: normal;
 			cursor: pointer;
 			position: relative;
 			padding-right: 25px;
 			user-select: none;
+			color: #333;
+			font-size: 14px;
 		}
-		th:hover {
+		th:last-child {
+			cursor: default;
+			padding-right: 8px;
+		}
+		th:not(:last-child):hover {
 			background-color: #e9ecef;
 		}
-		th::after {
+		th:not(:last-child)::after {
 			content: '↕';
 			position: absolute;
 			right: 8px;
 			color: #999;
 		}
-		th.sort-asc::after {
+		th.sort-asc:not(:last-child)::after {
 			content: '↑';
 			color: #333;
 		}
-		th.sort-desc::after {
+		th.sort-desc:not(:last-child)::after {
 			content: '↓';
 			color: #333;
 		}
@@ -167,12 +178,12 @@
 		.edit-btn, .delete-btn {
 			background: none;
 			border: none;
-			padding: 4px;
+			padding: 2px;
 			cursor: pointer;
 			display: inline-flex;
 			align-items: center;
 			justify-content: center;
-			margin: 0 4px;
+			margin: 0 2px;
 			border-radius: 4px;
 			transition: background-color 0.2s;
 		}
@@ -330,7 +341,7 @@
 						<th onclick="sortTable('language')" data-translate="comic.fields.language">Language</th>
 						<th onclick="sortTable('publisher')" data-translate="comic.fields.publisher">Publisher</th>
 						<th onclick="sortTable('publicationYear')" data-translate="comic.fields.year">Year</th>
-						<th data-translate="comic.actions.edit">Actions</th>
+						<th></th>
 					</tr>
 				</thead>
 				<tbody id="comicsTableBody">

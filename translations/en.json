@@ -24,7 +24,7 @@
 		"fields": {
 			"series": "Series Title",
 			"issueTitle": "Issue Title",
-			"issueNumber": "Issue Number",
+			"issueNumber": "Issue #",
 			"writers": "Writers",
 			"artists": "Artists",
 			"language": "Language",
