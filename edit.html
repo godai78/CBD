@@ -4,66 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="comic.title.edit">Edit Comic</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .button-group {
+            margin: 20px 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        button {
+            padding: 0 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 38px;
+            line-height: 1;
+            min-width: 120px;
+            box-sizing: border-box;
+            background-color: #333;
+            color: white;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .nav-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <div class="container mt-4">
-        <h1 class="mb-4" data-translate="comic.title.edit">Edit Comic</h1>
-        
-        <form id="editComicForm" class="needs-validation" novalidate>
-            <div class="mb-3">
-                <label for="series" class="form-label" data-translate="comic.fields.series">Series Title</label>
-                <input type="text" class="form-control" id="series" required>
+    <div class="container">
+        <a href="index.html" class="nav-link" data-translate="navigation.backToMain">← Back to Main Page</a>
+        <h1 data-translate="comic.title.edit">Edit Comic</h1>
+        <form id="editComicForm" onsubmit="saveComic(event)">
+            <div class="form-group">
+                <label for="series" data-translate="comic.fields.series">Series</label>
+                <input type="text" id="series" required>
             </div>
-            
-            <div class="mb-3">
-                <label for="title" class="form-label" data-translate="comic.fields.issueTitle">Title</label>
-                <input type="text" class="form-control" id="title" required>
+            <div class="form-group">
+                <label for="title" data-translate="comic.fields.issueTitle">Title</label>
+                <input type="text" id="title" required>
             </div>
-            
-            <div class="mb-3">
-                <label for="number" class="form-label" data-translate="comic.fields.issueNumber">Issue #</label>
-                <input type="text" class="form-control" id="number" required>
+            <div class="form-group">
+                <label for="number" data-translate="comic.fields.issueNumber">Number</label>
+                <input type="number" id="number" required>
             </div>
-            
-            <div class="mb-3">
-                <label for="writers" class="form-label" data-translate="comic.fields.writers">Writers</label>
-                <input type="text" class="form-control" id="writers" required 
-                       data-translate-placeholder="comic.form.writersHint">
+            <div class="form-group">
+                <label for="writers" data-translate="comic.fields.writers">Writers</label>
+                <input type="text" id="writers" data-translate-placeholder="comic.form.writersHint">
             </div>
-            
-            <div class="mb-3">
-                <label for="artists" class="form-label" data-translate="comic.fields.artists">Artists</label>
-                <input type="text" class="form-control" id="artists" required 
-                       data-translate-placeholder="comic.form.artistsHint">
+            <div class="form-group">
+                <label for="artists" data-translate="comic.fields.artists">Artists</label>
+                <input type="text" id="artists" data-translate-placeholder="comic.form.artistsHint">
             </div>
-            
-            <div class="mb-3">
-                <label for="language" class="form-label" data-translate="comic.fields.language">Language</label>
-                <input type="text" class="form-control" id="language" list="languages" required>
+            <div class="form-group">
+                <label for="language" data-translate="comic.fields.language">Language</label>
+                <input type="text" id="language" list="languages">
                 <datalist id="languages"></datalist>
             </div>
-            
-            <div class="mb-3">
-                <label for="publisher" class="form-label" data-translate="comic.fields.publisher">Publisher</label>
-                <input type="text" class="form-control" id="publisher" required>
+            <div class="form-group">
+                <label for="publisher" data-translate="comic.fields.publisher">Publisher</label>
+                <input type="text" id="publisher">
             </div>
-            
-            <div class="mb-3">
-                <label for="year" class="form-label" data-translate="comic.fields.year">Year</label>
-                <input type="number" class="form-control" id="year" required min="1900" max="2024">
+            <div class="form-group">
+                <label for="year" data-translate="comic.fields.year">Year</label>
+                <input type="number" id="year">
             </div>
-            
-            <div class="d-flex gap-2">
+            <div class="button-group">
                 <button type="submit" class="btn btn-primary" data-translate="comic.actions.save">Save Changes</button>
                 <a href="index.html" class="btn btn-secondary" data-translate="comic.actions.cancel">Cancel</a>
             </div>
         </form>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/translations.js"></script>
+    <script src="/translations.js"></script>
     <script>
         // Get comic ID from URL
         const urlParams = new URLSearchParams(window.location.search);
@@ -78,14 +141,14 @@
                 const comic = await response.json();
                 
                 // Populate form fields
-                document.getElementById('series').value = comic.series;
-                document.getElementById('title').value = comic.title;
-                document.getElementById('number').value = comic.number;
-                document.getElementById('writers').value = comic.writers.join(', ');
-                document.getElementById('artists').value = comic.artists.join(', ');
-                document.getElementById('language').value = comic.language;
-                document.getElementById('publisher').value = comic.publisher;
-                document.getElementById('year').value = comic.year;
+                document.getElementById('series').value = comic.seriesTitle || '';
+                document.getElementById('title').value = comic.issueTitle || '';
+                document.getElementById('number').value = comic.issueNumber || '';
+                document.getElementById('writers').value = (Array.isArray(comic.writers) ? comic.writers : [comic.writer]).join(', ');
+                document.getElementById('artists').value = (Array.isArray(comic.artists) ? comic.artists : []).join(', ');
+                document.getElementById('language').value = comic.language || '';
+                document.getElementById('publisher').value = comic.publisher || '';
+                document.getElementById('year').value = comic.publicationYear || '';
             } catch (error) {
                 console.error('Error loading comic:', error);
                 alert('Failed to load comic data');
@@ -93,24 +156,18 @@
         }
 
         // Handle form submission
-        document.getElementById('editComicForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
+        async function saveComic(event) {
+            event.preventDefault();
             
-            if (!e.target.checkValidity()) {
-                e.stopPropagation();
-                e.target.classList.add('was-validated');
-                return;
-            }
-
             const comicData = {
-                series: document.getElementById('series').value,
-                title: document.getElementById('title').value,
-                number: document.getElementById('number').value,
+                seriesTitle: document.getElementById('series').value,
+                issueTitle: document.getElementById('title').value,
+                issueNumber: parseInt(document.getElementById('number').value) || 1,
                 writers: document.getElementById('writers').value.split(',').map(w => w.trim()),
                 artists: document.getElementById('artists').value.split(',').map(a => a.trim()),
                 language: document.getElementById('language').value,
                 publisher: document.getElementById('publisher').value,
-                year: parseInt(document.getElementById('year').value)
+                publicationYear: parseInt(document.getElementById('year').value)
             };
 
             try {
@@ -129,32 +186,70 @@
                 console.error('Error updating comic:', error);
                 alert('Failed to update comic');
             }
-        });
-
-        // Load available languages
-        async function loadLanguages() {
-            try {
-                const response = await fetch('/api/languages');
-                if (!response.ok) throw new Error('Failed to load languages');
-                
-                const languages = await response.json();
-                const datalist = document.getElementById('languages');
-                
-                languages.forEach(lang => {
-                    const option = document.createElement('option');
-                    option.value = lang;
-                    datalist.appendChild(option);
-                });
-            } catch (error) {
-                console.error('Error loading languages:', error);
-            }
         }
 
-        // Initialize page
+        // Load translations when the page loads
         document.addEventListener('DOMContentLoaded', async () => {
-            await initializeTranslations();
-            await loadLanguages();
-            await loadComicData();
+            try {
+                // Get the saved language from localStorage (set by main page)
+                const savedLang = localStorage.getItem('selectedLanguage') || 'en';
+                
+                // Fetch translations
+                const response = await fetch('/translations');
+                if (!response.ok) throw new Error('Failed to load translations');
+                const data = await response.json();
+                
+                // Set up translations
+                window.translations = data.translations;
+                window.availableLanguages = data.availableLanguages;
+                
+                // Override translatePage to use saved language
+                window.translatePage = function() {
+                    const currentLang = localStorage.getItem('selectedLanguage') || 'en';
+                    const translations = window.translations[currentLang];
+
+                    if (!translations) {
+                        console.error('No translations found for language:', currentLang);
+                        return;
+                    }
+
+                    // Translate all elements with data-translate attribute
+                    document.querySelectorAll('[data-translate]').forEach(element => {
+                        const key = element.getAttribute('data-translate');
+                        const translation = getTranslation(translations, key);
+                        if (translation) {
+                            element.textContent = translation;
+                        }
+                    });
+
+                    // Translate all elements with data-translate-placeholder attribute
+                    document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+                        const key = element.getAttribute('data-translate-placeholder');
+                        const translation = getTranslation(translations, key);
+                        if (translation) {
+                            element.placeholder = translation;
+                        }
+                    });
+                };
+                
+                // Apply translations
+                translatePage();
+                
+                // Set up language datalist
+                const languagesDatalist = document.getElementById('languages');
+                if (languagesDatalist) {
+                    availableLanguages.forEach(lang => {
+                        const option = document.createElement('option');
+                        option.value = lang.name;
+                        languagesDatalist.appendChild(option);
+                    });
+                }
+
+                // Load comic data after translations are set up
+                await loadComicData();
+            } catch (error) {
+                console.error('Error loading translations:', error);
+            }
         });
     </script>
 </body>
