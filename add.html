@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add New Comic - Comic Database</title>
+    <title data-translate="app.pageTitle">Add New Comic</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,10 +26,9 @@
         .form-group {
             margin-bottom: 15px;
         }
-        label {
+        .form-group label {
             display: block;
             margin-bottom: 5px;
-            color: #666;
         }
         input, select {
             width: 100%;
@@ -45,17 +45,31 @@
             -webkit-appearance: none;
             margin: 0;
         }
+        .button-group {
+            margin: 20px 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
         button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
+            padding: 0 20px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 14px;
+            transition: background-color 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 38px;
+            line-height: 1;
+            min-width: 120px;
+            box-sizing: border-box;
+            background-color: #333;
+            color: white;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #555;
         }
         .nav-link {
             display: inline-block;
@@ -71,9 +85,7 @@
 <body>
     <div class="container">
         <a href="index.html" class="nav-link" data-translate="navigation.backToMain">← Back to Main Page</a>
-        <div class="header">
-            <h1 data-translate="comic.title.add">Add New Comic</h1>
-        </div>
+        <h1 data-translate="comic.title.add">Add New Comic</h1>
         <form id="comicForm" onsubmit="saveComic(event)">
             <div class="form-group">
                 <label for="seriesTitle" data-translate="comic.fields.series">Series Title:</label>
@@ -89,11 +101,11 @@
             </div>
             <div class="form-group">
                 <label for="writers" data-translate="comic.fields.writers">Writers:</label>
-                <input type="text" id="writers" placeholder="" data-translate-attr="placeholder:comic.fields.writersHint">
+                <input type="text" id="writers" placeholder="" data-translate-attr="placeholder:comic.form.writersHint">
             </div>
             <div class="form-group">
                 <label for="artists" data-translate="comic.fields.artists">Artists:</label>
-                <input type="text" id="artists" placeholder="" data-translate-attr="placeholder:comic.fields.artistsHint" required>
+                <input type="text" id="artists" placeholder="" data-translate-attr="placeholder:comic.form.artistsHint" required>
             </div>
             <div class="form-group">
                 <label for="language" data-translate="comic.fields.language">Language:</label>
@@ -119,50 +131,22 @@
             </div>
         </form>
     </div>
-
+    <script src="/translations.js"></script>
     <script>
-        // Function to update dropdown options
-        async function updateDropdownOptions() {
-            try {
-                const [languagesResponse, publishersResponse] = await Promise.all([
-                    fetch('/api/languages'),
-                    fetch('/api/publishers')
-                ]);
+        // Load translations when the page loads
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadTranslations();
+        });
 
-                const languages = await languagesResponse.json();
-                const publishers = await publishersResponse.json();
-
-                const languageSelect = document.getElementById('language');
-                const publisherSelect = document.getElementById('publisher');
-
-                languages.forEach(language => {
-                    const option = document.createElement('option');
-                    option.value = language;
-                    option.textContent = language;
-                    languageSelect.appendChild(option);
-                });
-
-                publishers.forEach(publisher => {
-                    const option = document.createElement('option');
-                    option.value = publisher;
-                    option.textContent = publisher;
-                    publisherSelect.appendChild(option);
-                });
-            } catch (error) {
-                console.error('Error loading dropdown options:', error);
-            }
-        }
-
-        // Function to add a new comic
-        async function addComic(event) {
+        // Handle form submission
+        async function saveComic(event) {
             event.preventDefault();
-            
-            const newComic = {
+            const formData = {
                 seriesTitle: document.getElementById('seriesTitle').value,
                 issueTitle: document.getElementById('issueTitle').value,
-                issueNumber: parseInt(document.getElementById('issueNumber').value),
-                writer: document.getElementById('writer').value.split(',').map(writer => writer.trim()),
-                artists: document.getElementById('artists').value.split(',').map(artist => artist.trim()),
+                issueNumber: parseInt(document.getElementById('issueNumber').value) || 1,
+                writers: document.getElementById('writers').value.split(',').map(w => w.trim()),
+                artists: document.getElementById('artists').value.split(',').map(a => a.trim()),
                 language: document.getElementById('language').value,
                 publisher: document.getElementById('publisher').value,
                 publicationYear: parseInt(document.getElementById('publicationYear').value)
@@ -174,27 +158,19 @@
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify(newComic)
+                    body: JSON.stringify(formData)
                 });
 
-                if (response.ok) {
-                    alert('Comic added successfully!');
-                    window.location.href = 'index.html';
-                } else {
-                    throw new Error('Failed to add comic');
+                if (!response.ok) {
+                    throw new Error('Failed to save comic');
                 }
+
+                window.location.href = 'index.html';
             } catch (error) {
-                console.error('Error adding comic:', error);
-                alert('Error adding comic. Please try again.');
+                console.error('Error saving comic:', error);
+                alert('Error saving comic. Please try again.');
             }
         }
-
-        // Add event listener to the form
-        document.getElementById('comicForm').addEventListener('submit', addComic);
-
-        // Load dropdown options when the page loads
-        updateDropdownOptions();
     </script>
-    <script src="/translations.js"></script>
 </body>
 </html> 

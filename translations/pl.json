@@ -1,6 +1,6 @@
 {
 	"app": {
-		"pageTitle": "Menedżer Kolekcji Komiksów",
+		"pageTitle": "Menedżer kolekcji komiksów",
 		"recordCount": "({count} rekordów)"
 	},
 	"search": {
@@ -22,25 +22,25 @@
 			"add": "Dodaj nowy komiks"
 		},
 		"fields": {
-			"series": "Seria",
-			"issueTitle": "Tytuł",
+			"series": "Nazwa serii",
+			"issueTitle": "Tytuł numeru",
 			"issueNumber": "Numer",
-			"writers": "Scenariusz",
+			"writers": "Scenarius",
 			"artists": "Rysunki",
 			"language": "Język",
 			"publisher": "Wydawca",
 			"year": "Rok wydania"
 		},
+		"form": {
+			"writersHint": "Rozdziel wielu scenarzystów przecinkami",
+			"artistsHint": "Rozdziel wielu rysowników przecinkami"
+		},
 		"actions": {
 			"edit": "Edytuj",
 			"delete": "Usuń",
-			"save": "Zapisz zmiany",
+			"save": "Zapisz komiks",
 			"cancel": "Anuluj",
-			"backToList": "← Powrót do listy"
-		},
-		"form": {
-			"writersHint": "(rozdzielone przecinkami)",
-			"artistsHint": "(rozdzielone przecinkami)"
+			"backToList": "← Wróć do listy komiksów"
 		}
 	},
 	"messages": {
@@ -51,7 +51,7 @@
 		"loadingError": "Błąd podczas ładowania komiksów. Spróbuj ponownie."
 	},
 	"navigation": {
-		"backToMain": "← Powrót do strony głównej",
+		"backToMain": "← Wróć do strony głównej",
 		"backToTop": "Powrót na górę"
 	}
 } 

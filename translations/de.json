@@ -1,32 +1,32 @@
 {
     "app": {
-        "pageTitle": "Comic-Sammlungsmanager",
+        "pageTitle": "Comic-Sammlungsverwalter",
         "recordCount": "({count} Einträge)"
     },
     "search": {
         "title": "Comics Suchen",
-        "seriesPlaceholder": "Nach Serienname suchen...",
-        "issueTitlePlaceholder": "Nach Ausgabentitel suchen...",
+        "seriesPlaceholder": "Nach Seriennamen suchen...",
+        "issueTitlePlaceholder": "Nach Hefttitel suchen...",
         "writerPlaceholder": "Nach Autor suchen...",
-        "artistPlaceholder": "Nach Künstler suchen...",
+        "artistPlaceholder": "Nach Zeichner suchen...",
         "languageFilter": "Alle Sprachen",
         "publisherFilter": "Alle Verlage",
         "yearFilter": "Alle Jahre",
         "searchButton": "Suchen",
         "addButton": "Neuen Comic Hinzufügen",
-        "importButton": "Von Google Sheets Importieren",
+        "importButton": "Aus Google Sheets Importieren",
         "exportButton": "Als CSV Exportieren"
     },
     "comic": {
         "title": {
-            "add": "Neuen Comic hinzufügen"
+            "add": "Neuen Comic Hinzufügen"
         },
         "fields": {
-            "series": "Serie",
-            "issueTitle": "Titel",
-            "issueNumber": "Ausgabe",
+            "series": "Serienname",
+            "issueTitle": "Hefttitel",
+            "issueNumber": "Nummer",
             "writers": "Autoren",
-            "artists": "Künstler",
+            "artists": "Zeichner",
             "language": "Sprache",
             "publisher": "Verlag",
             "year": "Erscheinungsjahr"
@@ -34,17 +34,17 @@
         "actions": {
             "edit": "Bearbeiten",
             "delete": "Löschen",
-            "save": "Änderungen Speichern",
+            "save": "Comic Speichern",
             "cancel": "Abbrechen",
             "backToList": "← Zurück zur Comic-Liste"
         },
         "form": {
-            "writersHint": "(durch Kommas getrennt)",
-            "artistsHint": "(durch Kommas getrennt)"
+            "writersHint": "Mehrere Autoren durch Kommas trennen",
+            "artistsHint": "Mehrere Zeichner durch Kommas trennen"
         }
     },
     "messages": {
-        "deleteConfirm": "Möchten Sie diesen Comic wirklich löschen?",
+        "deleteConfirm": "Sind Sie sicher, dass Sie diesen Comic löschen möchten?",
         "deleteSuccess": "Comic erfolgreich gelöscht",
         "saveSuccess": "Comic erfolgreich gespeichert",
         "error": "Ein Fehler ist aufgetreten",
@@ -52,6 +52,6 @@
     },
     "navigation": {
         "backToMain": "← Zurück zur Hauptseite",
-        "backToTop": "Zurück nach oben"
+        "backToTop": "Nach oben"
     }
 } 

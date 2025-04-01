@@ -22,25 +22,25 @@
 			"add": "Add New Comic"
 		},
 		"fields": {
-			"series": "Series",
-			"issueTitle": "Title",
-			"issueNumber": "Issue #",
+			"series": "Series Title",
+			"issueTitle": "Issue Title",
+			"issueNumber": "Issue Number",
 			"writers": "Writers",
 			"artists": "Artists",
 			"language": "Language",
 			"publisher": "Publisher",
 			"year": "Publication Year"
 		},
+		"form": {
+			"writersHint": "Separate multiple writers with commas",
+			"artistsHint": "Separate multiple artists with commas"
+		},
 		"actions": {
 			"edit": "Edit",
 			"delete": "Delete",
-			"save": "Save Changes",
+			"save": "Save Comic",
 			"cancel": "Cancel",
 			"backToList": "← Back to Comics List"
-		},
-		"form": {
-			"writersHint": "(comma-separated)",
-			"artistsHint": "(comma-separated)"
 		}
 	},
 	"messages": {

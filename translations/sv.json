@@ -4,13 +4,13 @@
         "recordCount": "({count} poster)"
     },
     "search": {
-        "title": "Sök Serier",
+        "title": "Sök serier",
         "seriesPlaceholder": "Sök efter serienamn...",
         "issueTitlePlaceholder": "Sök efter nummertitel...",
         "writerPlaceholder": "Sök efter författare...",
         "artistPlaceholder": "Sök efter konstnär...",
         "languageFilter": "Alla språk",
-        "publisherFilter": "Alla förlag",
+        "publisherFilter": "Alla utgivare",
         "yearFilter": "Alla år",
         "searchButton": "Sök",
         "addButton": "Lägg till ny serie",
@@ -19,36 +19,36 @@
     },
     "comic": {
         "title": {
-            "add": "Lägg till ny serietidning"
+            "add": "Lägg till ny serie"
         },
         "fields": {
-            "series": "Serie",
-            "issueTitle": "Titel",
+            "series": "Serienamn",
+            "issueTitle": "Nummer titel",
             "issueNumber": "Nummer",
             "writers": "Författare",
             "artists": "Konstnärer",
             "language": "Språk",
-            "publisher": "Förlag",
+            "publisher": "Utgivare",
             "year": "Utgivningsår"
         },
         "actions": {
             "edit": "Redigera",
             "delete": "Radera",
-            "save": "Spara ändringar",
+            "save": "Spara serie",
             "cancel": "Avbryt",
             "backToList": "← Tillbaka till serielistan"
         },
         "form": {
-            "writersHint": "(kommaseparerade)",
-            "artistsHint": "(kommaseparerade)"
+            "writersHint": "Separera flera författare med kommatecken",
+            "artistsHint": "Separera flera konstnärer med kommatecken"
         }
     },
     "messages": {
         "deleteConfirm": "Är du säker på att du vill radera denna serie?",
-        "deleteSuccess": "Serie raderad",
-        "saveSuccess": "Serie sparad",
+        "deleteSuccess": "Serien har raderats",
+        "saveSuccess": "Serien har sparats",
         "error": "Ett fel uppstod",
-        "loadingError": "Fel vid laddning av serier. Försök igen."
+        "loadingError": "Fel vid laddning av serier. Vänligen försök igen."
     },
     "navigation": {
         "backToMain": "← Tillbaka till huvudsidan",
