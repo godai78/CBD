@@ -1,6 +1,6 @@
 # Comic Collection Manager
 
-A web application for managing your comic collection. Built with Node.js and vanilla JavaScript.
+A web application for managing your comic collection. Built with Node.js and vanilla JavaScript. Vibe-coded by godai using Cursor.
 
 ## Features
 
@@ -54,3 +54,39 @@ Each comic entry contains:
 - Express.js
 - Vanilla JavaScript
 - Google Sheets API 
+
+## Translations
+
+The application supports multiple languages through a translation system. Currently available languages:
+- English (en)
+- Polish (pl)
+- German (de)
+- Swedish (sv)
+
+### Adding New Translations
+
+To add a new language:
+
+1. Create a new JSON file in the `translations` directory with the language code (e.g., `fr.json` for French)
+2. Copy the structure from `en.json` and translate all values
+3. Add the language name to the mapping in `server.js`:
+```javascript
+const name = {
+    'en': 'English',
+    'pl': 'Polski',
+    'de': 'Deutsch',
+    'sv': 'Svenska',
+    'fr': 'Français'  // Add your new language here
+}[code] || code;
+```
+### Using Translations in HTML
+
+To make an element translatable, add the `data-translate` attribute with the appropriate translation key:
+```html
+<label for="seriesTitle" data-translate="comic.fields.series">Series:</label>
+```
+
+For input placeholders:
+```html
+<input type="text" id="seriesSearch" data-translate="search.seriesPlaceholder" placeholder="Search by series name...">
+``` 

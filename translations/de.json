@@ -1,0 +1,57 @@
+{
+    "app": {
+        "pageTitle": "Comic-Sammlungsmanager",
+        "recordCount": "({count} Einträge)"
+    },
+    "search": {
+        "title": "Comics Suchen",
+        "seriesPlaceholder": "Nach Serienname suchen...",
+        "issueTitlePlaceholder": "Nach Ausgabentitel suchen...",
+        "writerPlaceholder": "Nach Autor suchen...",
+        "artistPlaceholder": "Nach Künstler suchen...",
+        "languageFilter": "Alle Sprachen",
+        "publisherFilter": "Alle Verlage",
+        "yearFilter": "Alle Jahre",
+        "searchButton": "Suchen",
+        "addButton": "Neuen Comic Hinzufügen",
+        "importButton": "Von Google Sheets Importieren",
+        "exportButton": "Als CSV Exportieren"
+    },
+    "comic": {
+        "title": {
+            "add": "Neuen Comic hinzufügen"
+        },
+        "fields": {
+            "series": "Serie",
+            "issueTitle": "Titel",
+            "issueNumber": "Ausgabe",
+            "writers": "Autoren",
+            "artists": "Künstler",
+            "language": "Sprache",
+            "publisher": "Verlag",
+            "year": "Erscheinungsjahr"
+        },
+        "actions": {
+            "edit": "Bearbeiten",
+            "delete": "Löschen",
+            "save": "Änderungen Speichern",
+            "cancel": "Abbrechen",
+            "backToList": "← Zurück zur Comic-Liste"
+        },
+        "form": {
+            "writersHint": "(durch Kommas getrennt)",
+            "artistsHint": "(durch Kommas getrennt)"
+        }
+    },
+    "messages": {
+        "deleteConfirm": "Möchten Sie diesen Comic wirklich löschen?",
+        "deleteSuccess": "Comic erfolgreich gelöscht",
+        "saveSuccess": "Comic erfolgreich gespeichert",
+        "error": "Ein Fehler ist aufgetreten",
+        "loadingError": "Fehler beim Laden der Comics. Bitte versuchen Sie es erneut."
+    },
+    "navigation": {
+        "backToMain": "← Zurück zur Hauptseite",
+        "backToTop": "Zurück nach oben"
+    }
+} 

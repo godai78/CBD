@@ -83,10 +83,14 @@ async function importFromGoogleSheets() {
             const values = row.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g) || [];
             const cleanValues = values.map(v => v.replace(/^"|"$/g, '').trim());
             
+            // Handle empty issue number
+            const issueNumberStr = cleanValues[2] || '';
+            const issueNumber = issueNumberStr ? parseInt(issueNumberStr) : null;
+            
             return {
                 issueTitle: cleanValues[0] || '', // tytuł
                 seriesTitle: cleanValues[1] || '', // seria
-                issueNumber: parseInt(cleanValues[2]) || 0, // tom serii
+                issueNumber: issueNumber, // tom serii
                 writer: cleanValues[3] || '', // scenariusz
                 artists: (cleanValues[4] || '').split(',').map(artist => artist.trim()), // rysunki
                 publicationYear: parseInt(cleanValues[5]) || 0, // data

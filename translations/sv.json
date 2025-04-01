@@ -1,0 +1,57 @@
+{
+    "app": {
+        "pageTitle": "Serietidningshanterare",
+        "recordCount": "({count} poster)"
+    },
+    "search": {
+        "title": "Sök Serier",
+        "seriesPlaceholder": "Sök efter serienamn...",
+        "issueTitlePlaceholder": "Sök efter nummertitel...",
+        "writerPlaceholder": "Sök efter författare...",
+        "artistPlaceholder": "Sök efter konstnär...",
+        "languageFilter": "Alla språk",
+        "publisherFilter": "Alla förlag",
+        "yearFilter": "Alla år",
+        "searchButton": "Sök",
+        "addButton": "Lägg till ny serie",
+        "importButton": "Importera från Google Sheets",
+        "exportButton": "Exportera till CSV"
+    },
+    "comic": {
+        "title": {
+            "add": "Lägg till ny serietidning"
+        },
+        "fields": {
+            "series": "Serie",
+            "issueTitle": "Titel",
+            "issueNumber": "Nummer",
+            "writers": "Författare",
+            "artists": "Konstnärer",
+            "language": "Språk",
+            "publisher": "Förlag",
+            "year": "Utgivningsår"
+        },
+        "actions": {
+            "edit": "Redigera",
+            "delete": "Radera",
+            "save": "Spara ändringar",
+            "cancel": "Avbryt",
+            "backToList": "← Tillbaka till serielistan"
+        },
+        "form": {
+            "writersHint": "(kommaseparerade)",
+            "artistsHint": "(kommaseparerade)"
+        }
+    },
+    "messages": {
+        "deleteConfirm": "Är du säker på att du vill radera denna serie?",
+        "deleteSuccess": "Serie raderad",
+        "saveSuccess": "Serie sparad",
+        "error": "Ett fel uppstod",
+        "loadingError": "Fel vid laddning av serier. Försök igen."
+    },
+    "navigation": {
+        "backToMain": "← Tillbaka till huvudsidan",
+        "backToTop": "Tillbaka till toppen"
+    }
+} 

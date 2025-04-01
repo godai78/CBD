@@ -1,0 +1,14 @@
+{
+  "name": "comic-book-database",
+  "version": "1.0.0",
+  "description": "A comic book database with flat file storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^128.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}

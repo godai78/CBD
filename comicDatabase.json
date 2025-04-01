@@ -431,7 +431,7 @@
   {
     "issueTitle": "Ghost World",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Daniel Clowes",
     "artists": [
       "Daniel Clowes"
@@ -444,7 +444,7 @@
   {
     "issueTitle": "Rozkosz",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Blutch",
     "artists": [
       "Blutch"
@@ -457,7 +457,7 @@
   {
     "issueTitle": "Wieczna wojna",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Joe Haldeman",
     "artists": [
       "Marvano"
@@ -470,7 +470,7 @@
   {
     "issueTitle": "Berlin",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marvano",
     "artists": [
       "Marvano"
@@ -483,7 +483,7 @@
   {
     "issueTitle": "Ośma czara, Genesis",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Piotr Owedyk",
     "artists": [
       "Piotr Owedyk"
@@ -496,7 +496,7 @@
   {
     "issueTitle": "Komarów",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bart Nijstad",
     "artists": [
       "Bart Nijstad"
@@ -522,7 +522,7 @@
   {
     "issueTitle": "Sprane dżinsy i sztama",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jarosław Płóciennik",
     "artists": [
       "Paweł Płóciennik"
@@ -535,7 +535,7 @@
   {
     "issueTitle": "Trup i sofa",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tony Sandoval",
     "artists": [
       "Tony Sandoval"
@@ -561,7 +561,7 @@
   {
     "issueTitle": "Kwiatuszku",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Czapiewski",
     "artists": [
       "Maciej Czapiewski"
@@ -587,7 +587,7 @@
   {
     "issueTitle": "Obcy obszar / Półautomatyczne szaleństwo",
     "seriesTitle": "Hector Umbra",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Uli Oesterle",
     "artists": [
       "Uli Oesterle"
@@ -600,7 +600,7 @@
   {
     "issueTitle": "Deszcz",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ville Ranta",
     "artists": [
       "Ville Ranta"
@@ -613,7 +613,7 @@
   {
     "issueTitle": "Dzieci i ludzie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marzena Sowa",
     "artists": [
       "Sandrine Revel"
@@ -626,7 +626,7 @@
   {
     "issueTitle": "Antologia Powstanie '44",
     "seriesTitle": "Powstanie '44",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -639,7 +639,7 @@
   {
     "issueTitle": "Antologia Powstanie '44 - 2009",
     "seriesTitle": "Powstanie '44",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -769,7 +769,7 @@
   {
     "issueTitle": "Zapiski detektywa Kindaichi",
     "seriesTitle": "Zapiski detektywa Kindaichi",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Sato Fumiya",
     "artists": [
       "Kanari Yozaburo"
@@ -847,7 +847,7 @@
   {
     "issueTitle": "Japan Fest Book nr. 1",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -1315,7 +1315,7 @@
   {
     "issueTitle": "Komiks W-wa",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Kłoś, Kwaśniewski",
     "artists": [
       "Przemysław Truściński"
@@ -1328,7 +1328,7 @@
   {
     "issueTitle": "Polska mistrzem Polski",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rafał Skarżycki",
     "artists": [
       "Tomasz Leśniak"
@@ -1341,7 +1341,7 @@
   {
     "issueTitle": "Amelka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -1354,7 +1354,7 @@
   {
     "issueTitle": "Secretas tentaciones",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jesus Olivos F.",
     "artists": [
       ""
@@ -1367,7 +1367,7 @@
   {
     "issueTitle": "Kościsko",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -1406,7 +1406,7 @@
   {
     "issueTitle": "Deszcz",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marcin Surma",
     "artists": [
       "Marcin Surma"
@@ -1432,7 +1432,7 @@
   {
     "issueTitle": "Ostatnie zlecenie",
     "seriesTitle": "24 h comics day",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jan Mazur",
     "artists": [
       "Jan Mazur"
@@ -1445,7 +1445,7 @@
   {
     "issueTitle": "Żywa biblioteka",
     "seriesTitle": "24 h comics day",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jan Mazur",
     "artists": [
       "Jan Mazur"
@@ -1575,7 +1575,7 @@
   {
     "issueTitle": "Lody",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Piotr Szreniawski",
     "artists": [
       "Jakub Grochola"
@@ -1588,7 +1588,7 @@
   {
     "issueTitle": "Moe",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Piotr Nowacki",
     "artists": [
       "Piotr Nowacki"
@@ -1601,7 +1601,7 @@
   {
     "issueTitle": "Om",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Piotr Nowacki",
     "artists": [
       "Piotr Nowacki"
@@ -1614,7 +1614,7 @@
   {
     "issueTitle": "Wybryki Xenophixeroxa",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tony Sandoval",
     "artists": [
       "Tony Sandoval"
@@ -1627,7 +1627,7 @@
   {
     "issueTitle": "Łowca robotów",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -1640,7 +1640,7 @@
   {
     "issueTitle": "Łauma",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -1653,7 +1653,7 @@
   {
     "issueTitle": "Ruchome Paski",
     "seriesTitle": "Gang Wąsaczy",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marek Lachowicz",
     "artists": [
       "Marek Lachowicz"
@@ -2069,7 +2069,7 @@
   {
     "issueTitle": "Elemelementarz",
     "seriesTitle": "Tytus, Romek i A'Tomek",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Henryk Chmielewski",
     "artists": [
       "Henryk Chmielewski"
@@ -2082,7 +2082,7 @@
   {
     "issueTitle": "88/89",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Michał Rzecznik",
     "artists": [
       "Przemiek Surma"
@@ -2095,7 +2095,7 @@
   {
     "issueTitle": "Scientia Occulta",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Robert Sienicki",
     "artists": [
       "Łukasz Okólski"
@@ -2342,7 +2342,7 @@
   {
     "issueTitle": "Johnny Bunko na drodze do kariery",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Daniel H. Pink",
     "artists": [
       "Daniel H. Pink"
@@ -2355,7 +2355,7 @@
   {
     "issueTitle": "Zagubiona dusza",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bryan Lee O'Malley",
     "artists": [
       "Bryan Lee O'Malley"
@@ -2381,7 +2381,7 @@
   {
     "issueTitle": "Machine Teen",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mark Sumerak",
     "artists": [
       "Mike Hawthorne"
@@ -2394,7 +2394,7 @@
   {
     "issueTitle": "Insekt",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Sascha Hommer",
     "artists": [
       "Sascha Hommer"
@@ -2407,7 +2407,7 @@
   {
     "issueTitle": "Japan",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Buronson",
     "artists": [
       "Kentaro Miura"
@@ -2420,7 +2420,7 @@
   {
     "issueTitle": "Dud's Hunt",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tetsuya Tsutsui",
     "artists": [
       "Tetsuya Tsutsui"
@@ -2537,7 +2537,7 @@
   {
     "issueTitle": "A drifting life",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Yoshihiro Tatsumi",
     "artists": [
       "Yoshihiro Tatsumi"
@@ -2641,7 +2641,7 @@
   {
     "issueTitle": "Klaster: dorastanie i tak jest do dupy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bartek Biedrzycki",
     "artists": [
       "Bartek Biedrzycki"
@@ -2654,7 +2654,7 @@
   {
     "issueTitle": "Osiedle Promieniste",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Inio Asano",
     "artists": [
       "Inio Asano"
@@ -2797,7 +2797,7 @@
   {
     "issueTitle": "Krótkie historie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Hiroki Endo",
     "artists": [
       "Hiroki Endo"
@@ -2810,7 +2810,7 @@
   {
     "issueTitle": "The awakening",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Neil Shaffer",
     "artists": [
       "Luca Genovese"
@@ -2823,7 +2823,7 @@
   {
     "issueTitle": "Zbyt COOL by dało się zapomnieć",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alex Robinson",
     "artists": [
       "Alex Robinson"
@@ -2836,7 +2836,7 @@
   {
     "issueTitle": "A niech cię, Tesla!",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jacek Świdziński",
     "artists": [
       "Jacek Świdziński"
@@ -2849,7 +2849,7 @@
   {
     "issueTitle": "Good as Lily",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Derek Kirk Kim",
     "artists": [
       "Jesse Hamm"
@@ -2862,7 +2862,7 @@
   {
     "issueTitle": "Emiko Superstar",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mariko Tamaki",
     "artists": [
       "Steve Rolston"
@@ -2875,7 +2875,7 @@
   {
     "issueTitle": "The Plain Janes",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Cecil Castellucci",
     "artists": [
       "Jim Rug"
@@ -2888,7 +2888,7 @@
   {
     "issueTitle": "Janes in love",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Cecil Castellucci",
     "artists": [
       "Jim Rug"
@@ -2901,7 +2901,7 @@
   {
     "issueTitle": "Confessions of a blabbermouth",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mike, Louise Carey",
     "artists": [
       "Aaron Alexovich"
@@ -2914,7 +2914,7 @@
   {
     "issueTitle": "Kimmie66",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Aaron Alexovich",
     "artists": [
       "Aaron Alexovich"
@@ -2927,7 +2927,7 @@
   {
     "issueTitle": "Clubbing",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Andi Watson",
     "artists": [
       "Josh Howard"
@@ -2940,7 +2940,7 @@
   {
     "issueTitle": "Water baby",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ross Campbell",
     "artists": [
       "Ross Campbell"
@@ -2953,7 +2953,7 @@
   {
     "issueTitle": "Burnout",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rebecca Donner",
     "artists": [
       "Inaki Miranda"
@@ -2966,7 +2966,7 @@
   {
     "issueTitle": "Token",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alisa Kwitney",
     "artists": [
       "Joelle Jones"
@@ -2979,7 +2979,7 @@
   {
     "issueTitle": "The New York Four",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Brian Wood",
     "artists": [
       "Ryan Kelly"
@@ -2992,7 +2992,7 @@
   {
     "issueTitle": "Pamiętam, jak...",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Flix",
     "artists": [
       "Flix"
@@ -3226,7 +3226,7 @@
   {
     "issueTitle": "SOS",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Katsuhiro Otomo",
     "artists": [
       "Katsuhiro Otomo"
@@ -3239,7 +3239,7 @@
   {
     "issueTitle": "Memories",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Katsuhiro Otomo",
     "artists": [
       "Katsuhiro Otomo"
@@ -3603,7 +3603,7 @@
   {
     "issueTitle": "Black Hole",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Charles Burns",
     "artists": [
       "Charles Burns"
@@ -3616,7 +3616,7 @@
   {
     "issueTitle": "Małe zaćmienia",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Fane",
     "artists": [
       "Jim"
@@ -3629,7 +3629,7 @@
   {
     "issueTitle": "Kobiety",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Yoshihiro Tatsumi",
     "artists": [
       "Yoshihiro Tatsumi"
@@ -3668,7 +3668,7 @@
   {
     "issueTitle": "Maus",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Art Spiegelman",
     "artists": [
       "Art Spiegelman"
@@ -3681,7 +3681,7 @@
   {
     "issueTitle": "The Mammoth Book of Best Crime Comics",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -3694,7 +3694,7 @@
   {
     "issueTitle": "Japonia",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -3707,7 +3707,7 @@
   {
     "issueTitle": "Blankets",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Craig Thompson",
     "artists": [
       "Craig Thompson"
@@ -3720,7 +3720,7 @@
   {
     "issueTitle": "Prosto z piekła",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alan Moore",
     "artists": [
       "Eddie Campbell"
@@ -3733,7 +3733,7 @@
   {
     "issueTitle": "Ikar",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Moebius",
     "artists": [
       "Jiro Taniguchi"
@@ -3746,7 +3746,7 @@
   {
     "issueTitle": "K",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Shiro Tosaki",
     "artists": [
       "Jiro Taniguchi"
@@ -3759,7 +3759,7 @@
   {
     "issueTitle": "Samotny smakosz",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Masayuki Kusumi",
     "artists": [
       "Jiro Taniguchi"
@@ -3772,7 +3772,7 @@
   {
     "issueTitle": "Księga wiatru",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Kan Furuyama",
     "artists": [
       "Jiro Taniguchi"
@@ -3785,7 +3785,7 @@
   {
     "issueTitle": "Wędrowiec z tundry",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jiro Taniguchi",
     "artists": [
       "Jiro Taniguchi"
@@ -3798,7 +3798,7 @@
   {
     "issueTitle": "ZOO zimą",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jiro Taniguchi",
     "artists": [
       "Jiro Taniguchi"
@@ -3811,7 +3811,7 @@
   {
     "issueTitle": "Podniebny orzeł",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jiro Taniguchi",
     "artists": [
       "Jiro Taniguchi"
@@ -3824,7 +3824,7 @@
   {
     "issueTitle": "Ratownik",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jiro Taniguchi",
     "artists": [
       "Jiro Taniguchi"
@@ -3837,7 +3837,7 @@
   {
     "issueTitle": "Odległa dzielnica",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jiro Taniguchi",
     "artists": [
       "Jiro Taniguchi"
@@ -3850,7 +3850,7 @@
   {
     "issueTitle": "Idący człowiek",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jiro Taniguchi",
     "artists": [
       "Jiro Taniguchi"
@@ -3980,7 +3980,7 @@
   {
     "issueTitle": "Dziennik z zaginięcia",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Hideo Azuma",
     "artists": [
       "Hideo Azuma"
@@ -4136,7 +4136,7 @@
   {
     "issueTitle": "Uzumaki. Spirala",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Junji Ito",
     "artists": [
       "Junji Ito"
@@ -4149,7 +4149,7 @@
   {
     "issueTitle": "Black paradox",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Junji Ito",
     "artists": [
       "Junji Ito"
@@ -4162,7 +4162,7 @@
   {
     "issueTitle": "Dwie poduszki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Hinako Sugiura",
     "artists": [
       "Hinako Sugiura"
@@ -4175,7 +4175,7 @@
   {
     "issueTitle": "LEMON",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -4292,7 +4292,7 @@
   {
     "issueTitle": "Amazing Girl",
     "seriesTitle": "Bler",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rafał Szłapa",
     "artists": [
       "Rafał Szłapa"
@@ -4305,7 +4305,7 @@
   {
     "issueTitle": "The Extended Amazing Girl",
     "seriesTitle": "Bler",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rafał Szłapa",
     "artists": [
       "Rafał Szłapa"
@@ -4318,7 +4318,7 @@
   {
     "issueTitle": "Amelka vs Mozaika",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -4772,8 +4772,8 @@
   },
   {
     "issueTitle": "Death of the Stacys",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Spider-man (Marvel)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -4954,8 +4954,8 @@
   },
   {
     "issueTitle": "Spider-man: Todd McFarlane",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Spider-Man Epic Collection",
+    "issueNumber": null,
     "writer": "Todd McFarlane",
     "artists": [
       "Todd McFarlane"
@@ -4967,8 +4967,8 @@
   },
   {
     "issueTitle": "Spectacular Spider-man",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Spider-Man Epic Collection",
+    "issueNumber": null,
     "writer": "J.M. DeMatteis",
     "artists": [
       "Sal Buscema"
@@ -4980,8 +4980,8 @@
   },
   {
     "issueTitle": "Hobgoblin lives!",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Spider-man (Marvel)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -5006,8 +5006,8 @@
   },
   {
     "issueTitle": "Spider-man 2 The movie",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Spider-man (Marvel)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -5019,8 +5019,8 @@
   },
   {
     "issueTitle": "Odnowić śluby",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Spider-man (Marvel)",
+    "issueNumber": null,
     "writer": "Dan Slott",
     "artists": [
       "Adam Kubert"
@@ -5045,8 +5045,8 @@
   },
   {
     "issueTitle": "The Amazing Spider-man: Hooky",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Spider-man (Marvel)",
+    "issueNumber": null,
     "writer": "Susan K. Putney",
     "artists": [
       "Bernie Wrightson"
@@ -5059,7 +5059,7 @@
   {
     "issueTitle": "Locas: The Maggie and Hopey Stories",
     "seriesTitle": "Love & Rockets",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jamie Hernandez",
     "artists": [
       "Jamie Hernandez"
@@ -5072,7 +5072,7 @@
   {
     "issueTitle": "Locas II: Maggie, Hopey & Ray",
     "seriesTitle": "Love & Rockets",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jamie Hernandez",
     "artists": [
       "Jamie Hernandez"
@@ -5085,7 +5085,7 @@
   {
     "issueTitle": "Palomar: The Heartbreak Soup Stories",
     "seriesTitle": "Love & Rockets",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Gilbert Hernandez",
     "artists": [
       "Gilbert Hernandez"
@@ -5098,7 +5098,7 @@
   {
     "issueTitle": "Kubuś Piekielny",
     "seriesTitle": "Kubuś Piekielny",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Szarlota Pawel",
     "artists": [
       "Szarlota Pawel"
@@ -5228,7 +5228,7 @@
   {
     "issueTitle": "Kruk",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "James O'Barr",
     "artists": [
       "James O'Barr"
@@ -5267,7 +5267,7 @@
   {
     "issueTitle": "Lżejsza od swojego cienia",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Katie Green",
     "artists": [
       "Katie Green"
@@ -5280,7 +5280,7 @@
   {
     "issueTitle": "Jan Karski. Człowiek, który odkrył Holocaust",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marco Rizzo",
     "artists": [
       "Lelio Bonaccorso"
@@ -5293,7 +5293,7 @@
   {
     "issueTitle": "Wykiwani",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alex Robinson",
     "artists": [
       "Alex Robinson"
@@ -6553,8 +6553,8 @@
   },
   {
     "issueTitle": "X-men: Mutant massacre",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "X-Men (Marvel)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -6566,8 +6566,8 @@
   },
   {
     "issueTitle": "Uncanny X-men: Earthfall",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "X-Men (Marvel)",
+    "issueNumber": null,
     "writer": "Chris Claremont",
     "artists": [
       "Mark Silvestri"
@@ -6619,7 +6619,7 @@
   {
     "issueTitle": "The Fall of the Mutants",
     "seriesTitle": "X-Men Milestones",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -6632,7 +6632,7 @@
   {
     "issueTitle": "Inferno",
     "seriesTitle": "X-Men Milestones",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -6644,8 +6644,8 @@
   },
   {
     "issueTitle": "Inferno crossovers",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "X-Men Milestones",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -6657,8 +6657,8 @@
   },
   {
     "issueTitle": "X-Men: With great power",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "X-Men (Marvel)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -6865,8 +6865,8 @@
   },
   {
     "issueTitle": "Predator versus Wolverine",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Wolverine (Marvel)",
+    "issueNumber": null,
     "writer": "Benjamin Percy",
     "artists": [
       "rózni autorzy"
@@ -6878,8 +6878,8 @@
   },
   {
     "issueTitle": "Wolverine: Patch",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Wolverine (Marvel)",
+    "issueNumber": null,
     "writer": "Larry Hama",
     "artists": [
       "Andrea Di Vito"
@@ -6892,7 +6892,7 @@
   {
     "issueTitle": "Akty Zemsty",
     "seriesTitle": "Wydanie Specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Howard Mackie",
     "artists": [
       "Mark Texeira"
@@ -6905,7 +6905,7 @@
   {
     "issueTitle": "Serca ciemności",
     "seriesTitle": "Wydanie Specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Howard Mackie",
     "artists": [
       "John Romita Jr."
@@ -6970,7 +6970,7 @@
   {
     "issueTitle": "Death's Head II",
     "seriesTitle": "Mega Marvel",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "",
     "artists": [
       ""
@@ -7022,7 +7022,7 @@
   {
     "issueTitle": "Elektra",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Frank Miller",
     "artists": [
       "Frank Miller"
@@ -7035,7 +7035,7 @@
   {
     "issueTitle": "Elektra: Assasin",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Frank Miller",
     "artists": [
       "Bill Sienkiewicz"
@@ -7048,7 +7048,7 @@
   {
     "issueTitle": "Incognegro",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mat Johnson",
     "artists": [
       "Warren Pleece"
@@ -7061,7 +7061,7 @@
   {
     "issueTitle": "Watchmen",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alan Moore",
     "artists": [
       "Dave Gibbons"
@@ -8581,8 +8581,8 @@
   },
   {
     "issueTitle": "Batman Begins & other tales",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8594,8 +8594,8 @@
   },
   {
     "issueTitle": "Robin: a hero reborn",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8607,8 +8607,8 @@
   },
   {
     "issueTitle": "The Greatest Batman Stories Ever Told",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8620,7 +8620,7 @@
   },
   {
     "issueTitle": "Batman: Nevermore",
-    "seriesTitle": "Nevermore",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 1,
     "writer": "Lewn Wein",
     "artists": [
@@ -8633,7 +8633,7 @@
   },
   {
     "issueTitle": "Batman: Nevermore",
-    "seriesTitle": "Nevermore",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 2,
     "writer": "Lewn Wein",
     "artists": [
@@ -8646,7 +8646,7 @@
   },
   {
     "issueTitle": "Batman: Nevermore",
-    "seriesTitle": "Nevermore",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 3,
     "writer": "Lewn Wein",
     "artists": [
@@ -8659,7 +8659,7 @@
   },
   {
     "issueTitle": "Batman: Nevermore",
-    "seriesTitle": "Nevermore",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 4,
     "writer": "Lewn Wein",
     "artists": [
@@ -8672,7 +8672,7 @@
   },
   {
     "issueTitle": "Batman: Nevermore",
-    "seriesTitle": "Nevermore",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 5,
     "writer": "Lewn Wein",
     "artists": [
@@ -8685,8 +8685,8 @@
   },
   {
     "issueTitle": "Batman: The Chalice",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Chuck Dixon",
     "artists": [
       "John van Fleet"
@@ -8698,8 +8698,8 @@
   },
   {
     "issueTitle": "Batman: Absolution",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "J. M. DeMatteis",
     "artists": [
       "Brian Ashmore"
@@ -8711,8 +8711,8 @@
   },
   {
     "issueTitle": "Batman: Scottish Connection",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "Frank Quitely"
@@ -8724,8 +8724,8 @@
   },
   {
     "issueTitle": "Batman: The Abduction",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "Norm Breyfolge"
@@ -8737,8 +8737,8 @@
   },
   {
     "issueTitle": "Batman: Dreamland",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "Norm Breyfolge"
@@ -8750,8 +8750,8 @@
   },
   {
     "issueTitle": "Batman: Gotham County Line",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Steve Niles",
     "artists": [
       "Scott Hampton"
@@ -8763,8 +8763,8 @@
   },
   {
     "issueTitle": "Batman: Contagion",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8776,8 +8776,8 @@
   },
   {
     "issueTitle": "Batman: Cataclysm",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8789,7 +8789,7 @@
   },
   {
     "issueTitle": "Batman: No Man's Land",
-    "seriesTitle": "No Man's Land TPB",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 1,
     "writer": "różni autorzy",
     "artists": [
@@ -8802,7 +8802,7 @@
   },
   {
     "issueTitle": "Batman: No Man's Land",
-    "seriesTitle": "No Man's Land TPB",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 2,
     "writer": "różni autorzy",
     "artists": [
@@ -8815,7 +8815,7 @@
   },
   {
     "issueTitle": "Batman: No Man's Land",
-    "seriesTitle": "No Man's Land TPB",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 3,
     "writer": "różni autorzy",
     "artists": [
@@ -8828,7 +8828,7 @@
   },
   {
     "issueTitle": "Batman: No Man's Land",
-    "seriesTitle": "No Man's Land TPB",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 4,
     "writer": "różni autorzy",
     "artists": [
@@ -8841,7 +8841,7 @@
   },
   {
     "issueTitle": "Batman: No Man's Land",
-    "seriesTitle": "No Man's Land TPB",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 5,
     "writer": "różni autorzy",
     "artists": [
@@ -8854,8 +8854,8 @@
   },
   {
     "issueTitle": "Batman: Seduction of a gun",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "John Ostrander",
     "artists": [
       "Vince Giarrano"
@@ -8893,8 +8893,8 @@
   },
   {
     "issueTitle": "Batman: Black & White II część pierwsza",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8906,8 +8906,8 @@
   },
   {
     "issueTitle": "Batman: Black & White II część druga",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8919,8 +8919,8 @@
   },
   {
     "issueTitle": "Batman: Black & White Volume Three",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8932,8 +8932,8 @@
   },
   {
     "issueTitle": "Batman: Black & White Volume Four",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8945,8 +8945,8 @@
   },
   {
     "issueTitle": "Batman: Black & White Volume Five",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -8958,8 +8958,8 @@
   },
   {
     "issueTitle": "Batman: Rok pierwszy",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Frank Miller",
     "artists": [
       "David Mazzucchelli"
@@ -8971,8 +8971,8 @@
   },
   {
     "issueTitle": "Batman: Prey",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Doug Moench",
     "artists": [
       "Paul Gulacy"
@@ -9140,8 +9140,8 @@
   },
   {
     "issueTitle": "Batman: Ego",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Darwyn Cooke",
     "artists": [
       "Darwyn Cooke"
@@ -9153,8 +9153,8 @@
   },
   {
     "issueTitle": "Batman: Snow",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Seth Fisher"
@@ -9166,8 +9166,8 @@
   },
   {
     "issueTitle": "Batman: The Long Halloween",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Jeph Loeb",
     "artists": [
       "Tim Sale"
@@ -9179,8 +9179,8 @@
   },
   {
     "issueTitle": "Batman: Dark Victory",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Jeph Loeb",
     "artists": [
       "Tim Sale"
@@ -9231,8 +9231,8 @@
   },
   {
     "issueTitle": "Batman: Evolution",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Greg Rucka",
     "artists": [
       "różni autorzy"
@@ -9244,8 +9244,8 @@
   },
   {
     "issueTitle": "Batman: Officer down",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -9257,8 +9257,8 @@
   },
   {
     "issueTitle": "Batman: Room full of strangers",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Scott Morse",
     "artists": [
       "Scott Morse"
@@ -9270,8 +9270,8 @@
   },
   {
     "issueTitle": "Arkham Asylum. Serious house on serious earth",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Grant Morrison",
     "artists": [
       "Dave McKean"
@@ -9283,8 +9283,8 @@
   },
   {
     "issueTitle": "Arkham Asylum. Madness",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Sam Kieth",
     "artists": [
       "Sam Kieth"
@@ -9296,8 +9296,8 @@
   },
   {
     "issueTitle": "Batman: Death in the family",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Jim Starlin",
     "artists": [
       "Jim Aparo"
@@ -9309,7 +9309,7 @@
   },
   {
     "issueTitle": "Batman: Robin Lives",
-    "seriesTitle": "Batman",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 428,
     "writer": "Jim Starlin",
     "artists": [
@@ -9322,8 +9322,8 @@
   },
   {
     "issueTitle": "Batman: A lonely place of dying",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -9335,8 +9335,8 @@
   },
   {
     "issueTitle": "Batman: Year Two",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Mike W. Barr",
     "artists": [
       "różni autorzy"
@@ -9348,7 +9348,7 @@
   },
   {
     "issueTitle": "Batman: Year Three p. 1: Different roads",
-    "seriesTitle": "Batman",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 436,
     "writer": "Marv Wolfman",
     "artists": [
@@ -9361,7 +9361,7 @@
   },
   {
     "issueTitle": "Batman: Year Three p. 2: Changes made",
-    "seriesTitle": "Batman",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 437,
     "writer": "Marv Wolfman",
     "artists": [
@@ -9374,7 +9374,7 @@
   },
   {
     "issueTitle": "Batman: Year Three p. 3: Turnabout",
-    "seriesTitle": "Batman",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 438,
     "writer": "Marv Wolfman",
     "artists": [
@@ -9387,7 +9387,7 @@
   },
   {
     "issueTitle": "Batman: Year Three p. 4: Resolutions",
-    "seriesTitle": "Batman",
+    "seriesTitle": "Batman (DC)",
     "issueNumber": 439,
     "writer": "Marv Wolfman",
     "artists": [
@@ -9400,8 +9400,8 @@
   },
   {
     "issueTitle": "Batman: Strange Apparitions",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -9479,7 +9479,7 @@
   {
     "issueTitle": "Batman: Dark Detective p. 6: House",
     "seriesTitle": "Batman: Dark Detective",
-    "issueNumber": 5,
+    "issueNumber": 6,
     "writer": "Steve Engleheart",
     "artists": [
       "Marshall Rogers"
@@ -9491,8 +9491,8 @@
   },
   {
     "issueTitle": "Batman: Gothic",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Grant Morrison",
     "artists": [
       "Klaus Janson"
@@ -9504,8 +9504,8 @@
   },
   {
     "issueTitle": "Batman: Bruce Wayne: Murderer?",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman: Bruce Wayne: Fugitive",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -9556,8 +9556,8 @@
   },
   {
     "issueTitle": "Batman: The Cult",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Jim Starlin",
     "artists": [
       "Bernie Wrightson"
@@ -9569,8 +9569,8 @@
   },
   {
     "issueTitle": "Batman: Blind justice",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Sam Hamm",
     "artists": [
       "Denys Cowan"
@@ -9608,8 +9608,8 @@
   },
   {
     "issueTitle": "Batman: Harvest breed",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "George Pratt",
     "artists": [
       "George Pratt"
@@ -9621,8 +9621,8 @@
   },
   {
     "issueTitle": "Batman: Hush cz. 1",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (Egmont)",
+    "issueNumber": null,
     "writer": "Jeph Loeb",
     "artists": [
       "Jim Lee"
@@ -9634,8 +9634,8 @@
   },
   {
     "issueTitle": "Batman: Hush cz. 2",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (Egmont)",
+    "issueNumber": null,
     "writer": "Jeph Loeb",
     "artists": [
       "Jim Lee"
@@ -9647,8 +9647,8 @@
   },
   {
     "issueTitle": "Batman: Death and the maidens",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Greg Rucka",
     "artists": [
       "Klaus Janson"
@@ -9660,8 +9660,8 @@
   },
   {
     "issueTitle": "Batman: Year One Ra's al Ghul",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Devin Grayson",
     "artists": [
       "Paul Gulacy"
@@ -9673,8 +9673,8 @@
   },
   {
     "issueTitle": "Batman: Rozbite miasto",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Brian Azzarello",
     "artists": [
       "Eduardo Risso"
@@ -9686,8 +9686,8 @@
   },
   {
     "issueTitle": "Batman: City of crime",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "David Lapham",
     "artists": [
       "Ramon Bachs"
@@ -9699,8 +9699,8 @@
   },
   {
     "issueTitle": "Batman and son",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Grant Morrison",
     "artists": [
       "Andy Kubert"
@@ -9712,8 +9712,8 @@
   },
   {
     "issueTitle": "Batman: Scarface",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "Charlie Adlard"
@@ -9725,8 +9725,8 @@
   },
   {
     "issueTitle": "Batman featuring Two-face and Riddler",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -9829,8 +9829,8 @@
   },
   {
     "issueTitle": "Batman/Judge Dredd: Ultimate Riddle",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -9868,8 +9868,8 @@
   },
   {
     "issueTitle": "Spawn/Batman",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Frank Miller",
     "artists": [
       "Todd McFarlane"
@@ -9881,8 +9881,8 @@
   },
   {
     "issueTitle": "Batman/Spawn: War devil",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Klaus Janson"
@@ -9894,8 +9894,8 @@
   },
   {
     "issueTitle": "Batman/Spawn",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Todd McFarlane",
     "artists": [
       "Greg Capullo"
@@ -9934,7 +9934,7 @@
   {
     "issueTitle": "Batman/Lobo",
     "seriesTitle": "Top Comics",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "Simon Bisley"
@@ -9946,8 +9946,8 @@
   },
   {
     "issueTitle": "Batman and Daredevil",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "D. G. Chichester",
     "artists": [
       "Scott McDaniel"
@@ -9959,8 +9959,8 @@
   },
   {
     "issueTitle": "Batman/Daredevil: King of New York",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "Eduardo Barreto"
@@ -9972,8 +9972,8 @@
   },
   {
     "issueTitle": "Punisher/Batman",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Chuck Dixon",
     "artists": [
       "John Romita Jr."
@@ -9985,8 +9985,8 @@
   },
   {
     "issueTitle": "The Darkness/Batman",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -9998,8 +9998,8 @@
   },
   {
     "issueTitle": "Batman/Demon",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "David Roach"
@@ -10011,8 +10011,8 @@
   },
   {
     "issueTitle": "Batman/The Spirit",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Jeph Loeb",
     "artists": [
       "Darwyn Cooke"
@@ -10024,8 +10024,8 @@
   },
   {
     "issueTitle": "Batman/Danger Girl",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Andy Hartnell",
     "artists": [
       "Leinil Yu"
@@ -10037,8 +10037,8 @@
   },
   {
     "issueTitle": "Batman: Night cries",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Archie Goodwin",
     "artists": [
       "Scott Hampton"
@@ -10050,8 +10050,8 @@
   },
   {
     "issueTitle": "Batman: Son of the demon",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Mike W. Barr",
     "artists": [
       "Jerry Bingham"
@@ -10063,8 +10063,8 @@
   },
   {
     "issueTitle": "Batman: Bride of the demon",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Mike W. Barr",
     "artists": [
       "Tim Grindberg"
@@ -10076,8 +10076,8 @@
   },
   {
     "issueTitle": "Batman: Birth of the demon",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Dennis O'Neil",
     "artists": [
       "Norm Breyfolge"
@@ -10089,8 +10089,8 @@
   },
   {
     "issueTitle": "Batman: Przysięga zza grobu",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (Beta Books)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10102,8 +10102,8 @@
   },
   {
     "issueTitle": "JLA: Tower of Babel",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10115,8 +10115,8 @@
   },
   {
     "issueTitle": "Batman: Turning points",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10128,8 +10128,8 @@
   },
   {
     "issueTitle": "Batman: Going sane",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "J. M. DeMatteis",
     "artists": [
       "Joe Staton"
@@ -10141,8 +10141,8 @@
   },
   {
     "issueTitle": "Batman: Secrets",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Sam Kieth",
     "artists": [
       "Sam Kieth"
@@ -10154,8 +10154,8 @@
   },
   {
     "issueTitle": "Batman/Joker: Switch",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Devin Grayson",
     "artists": [
       "John Bolton"
@@ -10167,8 +10167,8 @@
   },
   {
     "issueTitle": "Batman: Fortunate son",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Gerard Jones",
     "artists": [
       "Gene Ha"
@@ -10180,8 +10180,8 @@
   },
   {
     "issueTitle": "Batman: Tales of the demon",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10207,7 +10207,7 @@
   {
     "issueTitle": "Mroczny Rycerz nad Metropolis",
     "seriesTitle": "Superman (TM-Semic)",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10219,8 +10219,8 @@
   },
   {
     "issueTitle": "Batman. Świat",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (Egmont)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10232,8 +10232,8 @@
   },
   {
     "issueTitle": "Heroes against hunger",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10284,8 +10284,8 @@
   },
   {
     "issueTitle": "Superman/Batman: World's finest",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Dave Gibbons",
     "artists": [
       "Steve Rude"
@@ -10298,7 +10298,7 @@
   {
     "issueTitle": "Batman: Halloween",
     "seriesTitle": "Wydanie specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jeph Loeb",
     "artists": [
       "Tim Sale"
@@ -10310,8 +10310,8 @@
   },
   {
     "issueTitle": "Batman: Hong Kong",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Doug Moench",
     "artists": [
       "Tony Wong"
@@ -10323,8 +10323,8 @@
   },
   {
     "issueTitle": "Trinity. Batman/Superman/Wonder Woman",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Matt Wagner",
     "artists": [
       "Matt Wagner"
@@ -10336,8 +10336,8 @@
   },
   {
     "issueTitle": "Batman: Child of dreams",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Kia Asamiya",
     "artists": [
       "Kia Asamiya"
@@ -10480,7 +10480,7 @@
   {
     "issueTitle": "Black Masterpiece",
     "seriesTitle": "Batman Annual 1994",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Doug Moench",
     "artists": [
       "Frederico Cueva"
@@ -10492,8 +10492,8 @@
   },
   {
     "issueTitle": "Batman: Zagłada Gotham",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (Egmont)",
+    "issueNumber": null,
     "writer": "Mike Mignola",
     "artists": [
       "Troy Nixey"
@@ -10505,8 +10505,8 @@
   },
   {
     "issueTitle": "Batman: Gotham w świetle lamp gazowych",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (Egmont)",
+    "issueNumber": null,
     "writer": "Brian Augustyn",
     "artists": [
       "Mike Mignola"
@@ -10518,8 +10518,8 @@
   },
   {
     "issueTitle": "Batman: Master of the future",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Brian Augustyn",
     "artists": [
       "Eduardo Barreto"
@@ -10531,8 +10531,8 @@
   },
   {
     "issueTitle": "Batman: The golden streets of Gotham",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Jen van Meter",
     "artists": [
       "różni autorzy"
@@ -10544,8 +10544,8 @@
   },
   {
     "issueTitle": "Batman: Castle of the bat",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Jack C. Harris",
     "artists": [
       "Bo Hampton"
@@ -10557,8 +10557,8 @@
   },
   {
     "issueTitle": "Batman: Scar of the bat",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Max Allan Collins",
     "artists": [
       "Eduardo Barreto"
@@ -10570,8 +10570,8 @@
   },
   {
     "issueTitle": "Batman: The order of the beasts",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Eddie Campbell"
@@ -10583,8 +10583,8 @@
   },
   {
     "issueTitle": "Batman: Dark allegiances",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Howard Chaykin",
     "artists": [
       "Howard Chaykin"
@@ -10596,8 +10596,8 @@
   },
   {
     "issueTitle": "Batman: Holy terror",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Alan Grant",
     "artists": [
       "Norm Breyfolge"
@@ -10609,8 +10609,8 @@
   },
   {
     "issueTitle": "Batman/Houdini: The devil's workshop",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Mark Chiarello"
@@ -10648,8 +10648,8 @@
   },
   {
     "issueTitle": "Batman: Dark Knight Dynasty",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Mike W. Barr",
     "artists": [
       "różni autorzy"
@@ -10661,8 +10661,8 @@
   },
   {
     "issueTitle": "Batman: Vampire. Red Rain, Bloodstorm, Crimson Mist",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Doug Moench",
     "artists": [
       "Kelley Jones"
@@ -10674,8 +10674,8 @@
   },
   {
     "issueTitle": "Kingdom Come",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Mark Waid",
     "artists": [
       "Alex Ross"
@@ -10687,8 +10687,8 @@
   },
   {
     "issueTitle": "Batman: the Dark Knight Returns",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Frank Miller",
     "artists": [
       "Frank Miller"
@@ -10700,8 +10700,8 @@
   },
   {
     "issueTitle": "Superman & Batman: Generations",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "John Byrne",
     "artists": [
       "John Byrne"
@@ -10713,8 +10713,8 @@
   },
   {
     "issueTitle": "Batman: Thrillkiller",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "Howard Chaykin",
     "artists": [
       "Dan Brereton"
@@ -10752,8 +10752,8 @@
   },
   {
     "issueTitle": "Batman: Other realms",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10765,8 +10765,8 @@
   },
   {
     "issueTitle": "Batman: the demon awakes",
-    "seriesTitle": "",
-    "issueNumber": 0,
+    "seriesTitle": "Batman (DC)",
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -10818,7 +10818,7 @@
   {
     "issueTitle": "Funky Koval: Wrogie przejęcie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Parowski",
     "artists": [
       "Bogusław Polch"
@@ -10831,7 +10831,7 @@
   {
     "issueTitle": "Tank Girl 1",
     "seriesTitle": "Tank Girl Remastered",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jamie Hewlett",
     "artists": [
       "Alan Martin"
@@ -10844,7 +10844,7 @@
   {
     "issueTitle": "Tank Girl 2",
     "seriesTitle": "Tank Girl Remastered",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jamie Hewlett",
     "artists": [
       "Alan Martin"
@@ -10857,7 +10857,7 @@
   {
     "issueTitle": "Tank Girl 3",
     "seriesTitle": "Tank Girl Remastered",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jamie Hewlett",
     "artists": [
       "Alan Martin"
@@ -10870,7 +10870,7 @@
   {
     "issueTitle": "Blood: A tale",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "J. M. DeMatteis",
     "artists": [
       "Kent Williams"
@@ -10883,7 +10883,7 @@
   {
     "issueTitle": "Zero Girl",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Sam Kieth",
     "artists": [
       "Sam Kieth"
@@ -10948,7 +10948,7 @@
   {
     "issueTitle": "Stuck Rubber Baby",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Howard Cruse",
     "artists": [
       "Howard Cruse"
@@ -12599,7 +12599,7 @@
   {
     "issueTitle": "The Smithsonian Collection of Newspaper Comics",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -12612,7 +12612,7 @@
   {
     "issueTitle": "Logikomiks. W poszukiwaniu prawdy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Alecos Papadatos"
@@ -12651,7 +12651,7 @@
   {
     "issueTitle": "Brom",
     "seriesTitle": "Brom",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Unka Odya",
     "artists": [
       "Unka Odya"
@@ -12664,7 +12664,7 @@
   {
     "issueTitle": "Little Star",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Andi Watson",
     "artists": [
       "Andi Watson"
@@ -12677,7 +12677,7 @@
   {
     "issueTitle": "Bend",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mawil",
     "artists": [
       "Mawil"
@@ -12690,7 +12690,7 @@
   {
     "issueTitle": "Możemy zostać przyjaciółmi",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mawil",
     "artists": [
       "Mawil"
@@ -12703,7 +12703,7 @@
   {
     "issueTitle": "Safari na plaży",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mawil",
     "artists": [
       "Mawil"
@@ -12716,7 +12716,7 @@
   {
     "issueTitle": "Kinderland",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mawil",
     "artists": [
       "Mawil"
@@ -12729,7 +12729,7 @@
   {
     "issueTitle": "Sloth",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Gilbert Hernandez",
     "artists": [
       "Gilbert Hernandez"
@@ -12742,7 +12742,7 @@
   {
     "issueTitle": "Silverfish",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "David Lapham",
     "artists": [
       "David Lapham"
@@ -12755,7 +12755,7 @@
   {
     "issueTitle": "Originals",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Dave Gibbons",
     "artists": [
       "Dave Gibbons"
@@ -12768,7 +12768,7 @@
   {
     "issueTitle": "Noir: collection of crime comics",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -12781,7 +12781,7 @@
   {
     "issueTitle": "Koralina",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "P. Craig Russel",
     "artists": [
       "P. Craig Russel"
@@ -12794,7 +12794,7 @@
   {
     "issueTitle": "Przypadek pana Marka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jan Mazur",
     "artists": [
       "Jan Mazur"
@@ -12807,7 +12807,7 @@
   {
     "issueTitle": "Tam, gdzie rosły mirabelki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jan Mazur",
     "artists": [
       "Jan Mazur"
@@ -12820,7 +12820,7 @@
   {
     "issueTitle": "Koniec świata w Makowicach",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jan Mazur",
     "artists": [
       "Jan Mazur"
@@ -12833,7 +12833,7 @@
   {
     "issueTitle": "Zdarzenie. 1908",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jacek Świdziński",
     "artists": [
       "Jacek Świdziński"
@@ -12846,7 +12846,7 @@
   {
     "issueTitle": "Chomiki w kosmosie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bartek Biedrzycki",
     "artists": [
       "Bartek Biedrzycki"
@@ -12859,7 +12859,7 @@
   {
     "issueTitle": "Piekło, niebo",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Arne Bellstorf",
     "artists": [
       "Arne Bellstorf"
@@ -12872,7 +12872,7 @@
   {
     "issueTitle": "Za furtką",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Dominika Węcławek",
     "artists": [
       "Karolina Danek"
@@ -12885,7 +12885,7 @@
   {
     "issueTitle": "Osiedle Swoboda",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Michał Śledziński",
     "artists": [
       "Michał Śledziński"
@@ -12898,7 +12898,7 @@
   {
     "issueTitle": "Zaduszki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rutu Modan",
     "artists": [
       "Rutu Modan"
@@ -12911,7 +12911,7 @@
   {
     "issueTitle": "Sztukmistrz z Lublina",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Pałka",
     "artists": [
       "Maciej Pałka"
@@ -12924,7 +12924,7 @@
   {
     "issueTitle": "Fun Home. Tragikomiks rodzinny",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alison Bechdel",
     "artists": [
       "Alison Bechdel"
@@ -12937,7 +12937,7 @@
   {
     "issueTitle": "Chance in hell",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Gilbert Hernandez",
     "artists": [
       "Gilbert Hernandez"
@@ -12950,7 +12950,7 @@
   {
     "issueTitle": "Moje lesbijskie doświadczenia w walce z samotnością",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Nagata Kabi",
     "artists": [
       "Nagata Kabi"
@@ -12963,7 +12963,7 @@
   {
     "issueTitle": "BAM! (Big Ass Mini)",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -12976,7 +12976,7 @@
   {
     "issueTitle": "Kosmiczne rupiecie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Craig Thompson",
     "artists": [
       "Craig Thompson"
@@ -12989,7 +12989,7 @@
   {
     "issueTitle": "Pewnego lata",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mariko Tamaki",
     "artists": [
       "Jillian Tamaaki"
@@ -13002,7 +13002,7 @@
   {
     "issueTitle": "Ghost in the Shell",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Masamune Shirow",
     "artists": [
       "Masamune Shirow"
@@ -13015,7 +13015,7 @@
   {
     "issueTitle": "Ghost in the Shell 1.5",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Masamune Shirow",
     "artists": [
       "Masamune Shirow"
@@ -13028,7 +13028,7 @@
   {
     "issueTitle": "Plastic Little",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Satoshi Urushihara",
     "artists": [
       "Satoshi Urushihara"
@@ -13041,7 +13041,7 @@
   {
     "issueTitle": "Dziewczyny",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Flix",
     "artists": [
       "Flix"
@@ -13054,7 +13054,7 @@
   {
     "issueTitle": "Pierwsza wiosna",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Gerlinde Althoff",
     "artists": [
       "Christoph Heuer"
@@ -13067,7 +13067,7 @@
   {
     "issueTitle": "W cztery oczy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Sascha Hommer",
     "artists": [
       "Sascha Hommer"
@@ -13106,7 +13106,7 @@
   {
     "issueTitle": "Deadly Bear Attacks",
     "seriesTitle": "Keenspace Sampler",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13119,7 +13119,7 @@
   {
     "issueTitle": "Heroes of the Sampler",
     "seriesTitle": "Keenspace Sampler",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13145,7 +13145,7 @@
   {
     "issueTitle": "32 days of autumn",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13158,7 +13158,7 @@
   {
     "issueTitle": "friend",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13171,7 +13171,7 @@
   {
     "issueTitle": "Idee fixe",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13184,7 +13184,7 @@
   {
     "issueTitle": "1127 km",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13197,7 +13197,7 @@
   {
     "issueTitle": "Sezon festiwalowy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13210,7 +13210,7 @@
   {
     "issueTitle": "Zabawa w domek",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13223,7 +13223,7 @@
   {
     "issueTitle": "Rytuały przejścia",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13236,7 +13236,7 @@
   {
     "issueTitle": "Dłuższe dni",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13249,7 +13249,7 @@
   {
     "issueTitle": "19 m2",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13262,7 +13262,7 @@
   {
     "issueTitle": "Małe zwycięstwa cz. 1",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13275,7 +13275,7 @@
   {
     "issueTitle": "Małe zwycięstwa cz. 2",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13288,7 +13288,7 @@
   {
     "issueTitle": "Wczasy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13301,7 +13301,7 @@
   {
     "issueTitle": "Podwarszawski świt",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -13353,7 +13353,7 @@
   {
     "issueTitle": "Job blow",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13379,7 +13379,7 @@
   {
     "issueTitle": "Spoceni",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13392,7 +13392,7 @@
   {
     "issueTitle": "Zagrołki czyli: opowieści z czepaka!!!",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Fil Wiśniewski",
     "artists": [
       "Fil Wiśniewski"
@@ -13405,7 +13405,7 @@
   {
     "issueTitle": "Hurra",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13431,7 +13431,7 @@
   {
     "issueTitle": "Bug City: Miasto, Miłość, Morderstwo",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Łazowski, Szymkiewicz",
     "artists": [
       "Bartosz Łazowski"
@@ -13444,7 +13444,7 @@
   {
     "issueTitle": "The Mashup 3 (trio)",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Lobsterandscrimp",
     "artists": [
       "Lobsterandscrimp"
@@ -13457,7 +13457,7 @@
   {
     "issueTitle": "Indiańska próba",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Konrad T. Lewandowski",
     "artists": [
       "Szarlota Pawel"
@@ -13496,7 +13496,7 @@
   {
     "issueTitle": "Hałabała wersja de luxe",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13509,7 +13509,7 @@
   {
     "issueTitle": "Hałabała",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13522,7 +13522,7 @@
   {
     "issueTitle": "Historia fabryki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Edyta Bystroń",
     "artists": [
       "Edyta Bystroń"
@@ -13535,7 +13535,7 @@
   {
     "issueTitle": "1 ZINE",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13548,7 +13548,7 @@
   {
     "issueTitle": "Mr. Silence",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marek Turek",
     "artists": [
       "Marek Turek"
@@ -13561,7 +13561,7 @@
   {
     "issueTitle": "The chocolate age of grotesque",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ojciec Rene",
     "artists": [
       "Ojciec Rene"
@@ -13574,7 +13574,7 @@
   {
     "issueTitle": "Hujboj. Spedalona trumna i inne opowieści",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ojciec Rene",
     "artists": [
       "Ojciec Rene"
@@ -13587,7 +13587,7 @@
   {
     "issueTitle": "Rogal. Wydupczona czarodziejka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ojciec Rene",
     "artists": [
       "Ojciec Rene"
@@ -13652,7 +13652,7 @@
   {
     "issueTitle": "Ratman: Terror na wizji",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tomasz Niewiadomski",
     "artists": [
       "Tomasz Niewiadomski"
@@ -13665,7 +13665,7 @@
   {
     "issueTitle": "Morze pomysłów",
     "seriesTitle": "PDDK",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Grzegorz Janusz",
     "artists": [
       "Tomasz Niewiadomski"
@@ -13678,7 +13678,7 @@
   {
     "issueTitle": "Dwa małe wilczki",
     "seriesTitle": "PDDK",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Berenika Kołomycka",
     "artists": [
       "Berenika Kołomycka"
@@ -13691,7 +13691,7 @@
   {
     "issueTitle": "Komiksy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rafał Gawlik",
     "artists": [
       "Rafał Gawlik"
@@ -13704,7 +13704,7 @@
   {
     "issueTitle": "Saga o Atlasie i Axisie",
     "seriesTitle": "PDDK",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Pau",
     "artists": [
       "Pau"
@@ -13717,7 +13717,7 @@
   {
     "issueTitle": "Droga na molo w Wigan",
     "seriesTitle": "PDDK",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Joe Sacco",
     "artists": [
       "Joe Sacco"
@@ -13743,7 +13743,7 @@
   {
     "issueTitle": "Fucking Fat Flying Harkonnen Premium Bastard",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Łukasz Kowalczuk",
     "artists": [
       "Łukasz Kowalczuk"
@@ -13756,7 +13756,7 @@
   {
     "issueTitle": "Wróg",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Davide Cali",
     "artists": [
       "Serge Bloch"
@@ -13769,7 +13769,7 @@
   {
     "issueTitle": "Zagubione dziewczęta",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alan Moore",
     "artists": [
       "Melinda Gebbie"
@@ -13782,7 +13782,7 @@
   {
     "issueTitle": "Masterpiece Comics",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "R. Sikoryak",
     "artists": [
       "R. Sikoryak"
@@ -13821,7 +13821,7 @@
   {
     "issueTitle": "Ranx Wydanie zbiorcze",
     "seriesTitle": "Ranxerox",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -13834,7 +13834,7 @@
   {
     "issueTitle": "Anna chce skoczyć",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Lucie Lomova",
     "artists": [
       "Lucie Lomova"
@@ -13886,7 +13886,7 @@
   {
     "issueTitle": "Halloween Blues",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mythic",
     "artists": [
       "Zbigniew Kasprzak"
@@ -13899,7 +13899,7 @@
   {
     "issueTitle": "Pixy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Max Andersson",
     "artists": [
       "Max Andersson"
@@ -13912,7 +13912,7 @@
   {
     "issueTitle": "Tymczasem",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Grzegorz Janusz",
     "artists": [
       "Przemysław Truściński"
@@ -13925,7 +13925,7 @@
   {
     "issueTitle": "Psychopoland",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Chmielu",
     "artists": [
       "Piotr Białczak"
@@ -13977,7 +13977,7 @@
   {
     "issueTitle": "Wiedźmin",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Parowski",
     "artists": [
       "Bogusław Polch"
@@ -14042,7 +14042,7 @@
   {
     "issueTitle": "Człowiek w probówce",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -14055,7 +14055,7 @@
   {
     "issueTitle": "Awantura 2.0",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -14172,7 +14172,7 @@
   {
     "issueTitle": "Ser-ce",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marcin Podolec",
     "artists": [
       "różni autorzy"
@@ -14185,7 +14185,7 @@
   {
     "issueTitle": "Pogaduszki Pana Gruszki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Piotr Michalak",
     "artists": [
       "Piotr Michalak"
@@ -14198,7 +14198,7 @@
   {
     "issueTitle": "Cud na Wisłą",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Halina Ostaszewska",
     "artists": [
       "Agata Kalinowska"
@@ -14211,7 +14211,7 @@
   {
     "issueTitle": "Podróże w czasie i przestrzeni dla ratowania Ziemi",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rafał Skarżycki",
     "artists": [
       "Karol Kalinowski"
@@ -14224,7 +14224,7 @@
   {
     "issueTitle": "Zabójca Hunga",
     "seriesTitle": "PDDK",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Dominique Grange",
     "artists": [
       "Tardi"
@@ -14237,7 +14237,7 @@
   {
     "issueTitle": "Demoniczny detektyw",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Kajetan Wykurz",
     "artists": [
       "Michał Lebioda"
@@ -14250,7 +14250,7 @@
   {
     "issueTitle": "Someplace strange",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ann Nocenti",
     "artists": [
       "John Bolton"
@@ -14263,7 +14263,7 @@
   {
     "issueTitle": "Arena",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bruce Jones",
     "artists": [
       "Bruce Jones"
@@ -14276,7 +14276,7 @@
   {
     "issueTitle": "Epicurus the Sage",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "William Messner-Loeb",
     "artists": [
       "Sam Kieth"
@@ -14289,7 +14289,7 @@
   {
     "issueTitle": "Niedoskonałości",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Adrian Tomine",
     "artists": [
       "Adrian Tomine"
@@ -14302,7 +14302,7 @@
   {
     "issueTitle": "Summer blonde",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Adrian Tomine",
     "artists": [
       "Adrian Tomine"
@@ -14315,7 +14315,7 @@
   {
     "issueTitle": "Hard boiled",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Frank Miller",
     "artists": [
       "Geof Darrow"
@@ -14328,7 +14328,7 @@
   {
     "issueTitle": "Krasnoludy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Zbigniew Larwa"
@@ -14367,7 +14367,7 @@
   {
     "issueTitle": "Burton i Cyb",
     "seriesTitle": "Komiks",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Antonio Segura",
     "artists": [
       "Jose Ortiz"
@@ -14380,7 +14380,7 @@
   {
     "issueTitle": "Tej nocy dzika paprotka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marzena Sowa",
     "artists": [
       "Berenika Kołomycka"
@@ -14406,7 +14406,7 @@
   {
     "issueTitle": "Szninkiel",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jean van Hamme",
     "artists": [
       "Grzegorz Rosiński"
@@ -14419,7 +14419,7 @@
   {
     "issueTitle": "Niczym aksamitna rękawica odlana z żelaza",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Daniel Clowes",
     "artists": [
       "Daniel Clowes"
@@ -14510,7 +14510,7 @@
   {
     "issueTitle": "Zimny dół gorące serca",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Sebastian Sęk",
     "artists": [
       "Dawid Żabiński"
@@ -14523,7 +14523,7 @@
   {
     "issueTitle": "Kot Krejzol",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "George Herriman",
     "artists": [
       "George Herriman"
@@ -14536,7 +14536,7 @@
   {
     "issueTitle": "Niebieskie pigułki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Frederik Peters",
     "artists": [
       "Frederik Peters"
@@ -14549,7 +14549,7 @@
   {
     "issueTitle": "Śmierć",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Neil Gaiman",
     "artists": [
       "różni autorzy"
@@ -14575,7 +14575,7 @@
   {
     "issueTitle": "Kij Bij",
     "seriesTitle": "48 stron",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tobias Piątkowki",
     "artists": [
       "Robert Adler"
@@ -14588,7 +14588,7 @@
   {
     "issueTitle": "Furkot",
     "seriesTitle": "Bohaterowie kosmosu",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -14601,7 +14601,7 @@
   {
     "issueTitle": "Turbolechici",
     "seriesTitle": "Bohaterowie kosmosu",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -14861,7 +14861,7 @@
   {
     "issueTitle": "Cyberdoom",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jakub Kiyuc",
     "artists": [
       "Jakub Kiyuc"
@@ -14874,7 +14874,7 @@
   {
     "issueTitle": "Dąb Bartek",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jakub Kiyuc",
     "artists": [
       "Jakub Kiyuc"
@@ -14978,7 +14978,7 @@
   {
     "issueTitle": "Księżniczka Leia",
     "seriesTitle": "Star Wars Komiks",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ron Marz",
     "artists": [
       "Tomas Giorello"
@@ -14991,7 +14991,7 @@
   {
     "issueTitle": "Waleczna księżniczka",
     "seriesTitle": "Star Wars Komiks",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Randy Stradley",
     "artists": [
       "Davide fabbri"
@@ -15004,7 +15004,7 @@
   {
     "issueTitle": "Czystka: Pięść tyrana",
     "seriesTitle": "Star Wars Komiks",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alexander Freed",
     "artists": [
       "różni autorzy"
@@ -15017,7 +15017,7 @@
   {
     "issueTitle": "Darth Vader Cena władzy",
     "seriesTitle": "Star Wars Komiks",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "John Ostrander",
     "artists": [
       "Francis Portella"
@@ -15030,7 +15030,7 @@
   {
     "issueTitle": "Piraci z Gwiazdy Śmierci",
     "seriesTitle": "Star Wars Komiks",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Henry Gilroy",
     "artists": [
       "Glen Murakami"
@@ -15043,7 +15043,7 @@
   {
     "issueTitle": "Niewolnicy republiki",
     "seriesTitle": "Star Wars The Clone Wars",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Henry Gilroy",
     "artists": [
       "różni autorzy"
@@ -15056,7 +15056,7 @@
   {
     "issueTitle": "W służbie Republiki / Bohater Konfederacji",
     "seriesTitle": "Star Wars The Clone Wars",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Brian Kolchak"
@@ -15069,7 +15069,7 @@
   {
     "issueTitle": "Zdrada",
     "seriesTitle": "Star Wars Komiks Wydanie Specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Scott Allie",
     "artists": [
       "Ryan Benjamin"
@@ -15082,7 +15082,7 @@
   {
     "issueTitle": "Biggs Darklighter Bohater Rebelii",
     "seriesTitle": "Star Wars Komiks Wydanie Specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Paul Chadwick",
     "artists": [
       "Doug Wheatley"
@@ -15095,7 +15095,7 @@
   {
     "issueTitle": "Rebelia Drobne zwycięstwa",
     "seriesTitle": "Star Wars Komiks Wydanie Specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jeremy Barlow",
     "artists": [
       "Collin Wilson"
@@ -15108,7 +15108,7 @@
   {
     "issueTitle": "W służbie Imperium",
     "seriesTitle": "Star Wars Komiks Wydanie Specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Michael A. Stackpole",
     "artists": [
       "Johnn Nadeau"
@@ -15134,7 +15134,7 @@
   {
     "issueTitle": "Odwrócenie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Radosław Bolkowski",
     "artists": [
       "Radosław Bolkowski"
@@ -15147,7 +15147,7 @@
   {
     "issueTitle": "Paronomazja",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -15160,7 +15160,7 @@
   {
     "issueTitle": "Miłość",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Łukasz Godlewski",
     "artists": [
       "Łukasz Godlewski"
@@ -15173,7 +15173,7 @@
   {
     "issueTitle": "Szkicownik",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -15186,7 +15186,7 @@
   {
     "issueTitle": "Laleczki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Pałka",
     "artists": [
       "Maciej Pałka"
@@ -15199,7 +15199,7 @@
   {
     "issueTitle": "Komiksowe becikowe",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -15212,7 +15212,7 @@
   {
     "issueTitle": "Brak zrozumienia dla realizmu",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jakub Dębski",
     "artists": [
       "Jakub Dębski"
@@ -15225,7 +15225,7 @@
   {
     "issueTitle": "Bossi i Bosso: O jedną umowę za daleko",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jakub Dębski",
     "artists": [
       "Michał Ditkowski"
@@ -15238,7 +15238,7 @@
   {
     "issueTitle": "Kwaziu",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Daniel Gizicki",
     "artists": [
       "Piotr Nowacki"
@@ -15251,7 +15251,7 @@
   {
     "issueTitle": "Rycerz Janek: W kanałach szaleństwa",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Igor Wolski"
@@ -15264,7 +15264,7 @@
   {
     "issueTitle": "Szrama: Istota legendy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -15277,7 +15277,7 @@
   {
     "issueTitle": "Bostońskie małżeństwa",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -15290,7 +15290,7 @@
   {
     "issueTitle": "Och. przygody gentlemańskiego barbarzyńcy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jacek Kuziemski",
     "artists": [
       "Jacek Kuziemski"
@@ -15355,7 +15355,7 @@
   {
     "issueTitle": "Jazda!",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -15511,7 +15511,7 @@
   {
     "issueTitle": "Kocia planeta",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jakub Martewicz",
     "artists": [
       "Jakub Martewicz"
@@ -15524,7 +15524,7 @@
   {
     "issueTitle": "Eurydyka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jakub Martewicz",
     "artists": [
       "Jakub Martewicz"
@@ -15537,7 +15537,7 @@
   {
     "issueTitle": "Cinema Panopticum",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Thomas Ott",
     "artists": [
       "Thomas Ott"
@@ -15615,7 +15615,7 @@
   {
     "issueTitle": "Biały Orzeł",
     "seriesTitle": "Biały Orzeł",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Kmiołek",
     "artists": [
       "Adam Kmiołek"
@@ -15628,7 +15628,7 @@
   {
     "issueTitle": "Mutująca teczka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Ireneusz Mazurek",
     "artists": [
       "Piotr Nowacki"
@@ -15641,7 +15641,7 @@
   {
     "issueTitle": "Ballada o Eulalii",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jerzy Szyłak",
     "artists": [
       "Jakub Babczyński"
@@ -15654,7 +15654,7 @@
   {
     "issueTitle": "Zostawiając powidok wibrującej czerni",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Daniel Chmielewski",
     "artists": [
       "Daniel Chmielewski"
@@ -15680,7 +15680,7 @@
   {
     "issueTitle": "boli.blog",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Robert Adler",
     "artists": [
       "Robert Adler"
@@ -15693,7 +15693,7 @@
   {
     "issueTitle": "Continuity",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jason McNamara",
     "artists": [
       "Tony Talbert"
@@ -15706,7 +15706,7 @@
   {
     "issueTitle": "Misterium",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Grant Morrison",
     "artists": [
       "Jon J. Muth"
@@ -15797,7 +15797,7 @@
   {
     "issueTitle": "Lobo: Ostatni Czarnian",
     "seriesTitle": "Wydanie specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Simon Bisley"
@@ -15810,7 +15810,7 @@
   {
     "issueTitle": "Lobo powraca",
     "seriesTitle": "Wydanie specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Simon Bisley"
@@ -15823,7 +15823,7 @@
   {
     "issueTitle": "Paproszki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jacek Świdziński",
     "artists": [
       "Jacek Świdziński"
@@ -15836,7 +15836,7 @@
   {
     "issueTitle": "Aliens vs Predator",
     "seriesTitle": "Wydanie specjalne",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Randy Stradley",
     "artists": [
       "Phill Norwood"
@@ -15849,7 +15849,7 @@
   {
     "issueTitle": "Komiksowy przewodnik po Warszawie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -15862,7 +15862,7 @@
   {
     "issueTitle": "Ojo",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Sam Kieth",
     "artists": [
       "Sam Kieth"
@@ -15875,7 +15875,7 @@
   {
     "issueTitle": "W siąsiednich kadrach",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -15888,7 +15888,7 @@
   {
     "issueTitle": "La Masakra",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -15901,7 +15901,7 @@
   {
     "issueTitle": "Las Marakas",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -15914,7 +15914,7 @@
   {
     "issueTitle": "Pinky",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Szaweł Płóciennik",
     "artists": [
       "Szaweł Płóciennik"
@@ -15927,7 +15927,7 @@
   {
     "issueTitle": "Karuzela głupców",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jason Lutes",
     "artists": [
       "Jason Lutes"
@@ -15940,7 +15940,7 @@
   {
     "issueTitle": "Kapitan Sheer",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "Marcin Podolec"
@@ -15953,7 +15953,7 @@
   {
     "issueTitle": "Czasem",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Grzegorz Janusz",
     "artists": [
       "Marcin Podolec"
@@ -15966,7 +15966,7 @@
   {
     "issueTitle": "Rany wylotowe",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Rutu Modan",
     "artists": [
       "Rutu Modan"
@@ -15979,7 +15979,7 @@
   {
     "issueTitle": "Boska tragedia",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Łazowski",
     "artists": [
       "Maciej Łazowski"
@@ -16044,7 +16044,7 @@
   {
     "issueTitle": "Bohater Monte Cassino",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -16057,7 +16057,7 @@
   {
     "issueTitle": "Droga miecza",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Krzysztof Leśniak",
     "artists": [
       "Krzysztof Leśniak"
@@ -16070,7 +16070,7 @@
   {
     "issueTitle": "Spacer z Czechowiczem",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Konwerski",
     "artists": [
       "Maciej Pałka"
@@ -16083,7 +16083,7 @@
   {
     "issueTitle": "Herma Św. Zygmunta",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bartek Biedrzycki",
     "artists": [
       "Maciej Pałka"
@@ -16096,7 +16096,7 @@
   {
     "issueTitle": "Spełniony sen",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bartek Biedrzycki",
     "artists": [
       "Łukasz Godlewski"
@@ -16174,7 +16174,7 @@
   {
     "issueTitle": "Mały Książę",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Joann Sfar",
     "artists": [
       "Joann Sfar"
@@ -16291,7 +16291,7 @@
   {
     "issueTitle": "Łikendowe szorty",
     "seriesTitle": "Przygody Misia Ździsia",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -16317,7 +16317,7 @@
   {
     "issueTitle": "Shangri-La",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Mathieu Bablet",
     "artists": [
       "Mathieu Bablet"
@@ -16330,7 +16330,7 @@
   {
     "issueTitle": "Przebudzenie",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Scott Snyder",
     "artists": [
       "Sean Murphy"
@@ -16343,7 +16343,7 @@
   {
     "issueTitle": "Free Country. A tale of the Children's Crusade",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "różni autorzy",
     "artists": [
       "różni autorzy"
@@ -16434,7 +16434,7 @@
   {
     "issueTitle": "Gniazdo światów",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bartek Biedrzycki",
     "artists": [
       "różni autorzy"
@@ -16590,7 +16590,7 @@
   {
     "issueTitle": "Skamieniałe sny",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Satoshi Kon",
     "artists": [
       "Satoshi Kon"
@@ -16603,7 +16603,7 @@
   {
     "issueTitle": "Weź się w garść",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Anna Krztoń",
     "artists": [
       "Anna Krztoń"
@@ -16616,7 +16616,7 @@
   {
     "issueTitle": "Opus",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Satoshi Kon",
     "artists": [
       "Satoshi Kon"
@@ -16629,7 +16629,7 @@
   {
     "issueTitle": "Astronauts in trouble",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Larry Young",
     "artists": [
       "C. Adlard",
@@ -16643,7 +16643,7 @@
   {
     "issueTitle": "Alieneczka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Małgorzata Lewandowska",
     "artists": [
       "Małgorzata Lewandowska"
@@ -16656,7 +16656,7 @@
   {
     "issueTitle": "Opowieści starych bogów",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Magdalena Lewandowska",
     "artists": [
       "Małgorzata Lewandowska"
@@ -16669,7 +16669,7 @@
   {
     "issueTitle": "Cesarzowa",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Dominika Węcławek",
     "artists": [
       "Maciej Pałka"
@@ -16917,7 +16917,7 @@
   {
     "issueTitle": "Archiwum ekspansji",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Marek Turek",
     "artists": [
       "Marek Turek"
@@ -16930,7 +16930,7 @@
   {
     "issueTitle": "Najgorszy komiks roku",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Maciej Pałka",
     "artists": [
       "Maciej Pałka"
@@ -16943,7 +16943,7 @@
   {
     "issueTitle": "Wspomnienia Emanon",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Shinji Kajio",
     "artists": [
       "Kenji Tsuruta"
@@ -16956,7 +16956,7 @@
   {
     "issueTitle": "Ballada o Halo Jones",
     "seriesTitle": "Halo Jones",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alan Moore",
     "artists": [
       "Ian Gibson"
@@ -16995,7 +16995,7 @@
   {
     "issueTitle": "Reklama o pewnym ogórku",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Zuza Biedrzycka",
     "artists": [
       "Zuza Biedrzycka"
@@ -17008,7 +17008,7 @@
   {
     "issueTitle": "Wojna nieskończoności",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jim Starlin",
     "artists": [
       "różni autorzy"
@@ -17021,7 +17021,7 @@
   {
     "issueTitle": "S11 Oddział Sledczy",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Jerzy Łanuszewski",
     "artists": [
       "Błażej Kurowski"
@@ -17073,7 +17073,7 @@
   {
     "issueTitle": "Next generation",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "",
     "artists": [
       ""
@@ -17164,7 +17164,7 @@
   {
     "issueTitle": "Skąd się bierze woda sodowa / Antresolka Profesorka",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tadeusz Baranowski",
     "artists": [
       "Tadeusz Baranowski"
@@ -17177,7 +17177,7 @@
   {
     "issueTitle": "Podróż smokiem diplodokiem",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tadeusz Baranowski",
     "artists": [
       "Tadeusz Baranowski"
@@ -17190,7 +17190,7 @@
   {
     "issueTitle": "Cinder and Ashe",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Gerry Conway",
     "artists": [
       "Jose Luis Garcia-Lopez"
@@ -17203,7 +17203,7 @@
   {
     "issueTitle": "Sach & Violens",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Peter David",
     "artists": [
       "George Perez"
@@ -17216,7 +17216,7 @@
   {
     "issueTitle": "V jak Vendetta",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Alan Moore",
     "artists": [
       "David Lloyd"
@@ -17229,7 +17229,7 @@
   {
     "issueTitle": "Status 7",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Tobiasz Piątkowski",
     "artists": [
       "Robert Adler"
@@ -17242,7 +17242,7 @@
   {
     "issueTitle": "Vlepka zin",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Błażej Kurowski",
     "artists": [
       "Błażej Kurowski"
@@ -17281,7 +17281,7 @@
   {
     "issueTitle": "Jak będę duży, to zostanę Hadfieldem",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bartek Biedrzycki",
     "artists": [
       "Błażej Kurowski"
@@ -17294,7 +17294,7 @@
   {
     "issueTitle": "Jak będę duży, to zostanę Hadfieldem",
     "seriesTitle": "wydanie rozszerzone",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Bartek Biedrzycki",
     "artists": [
       "Błażej Kurowski"
@@ -17307,7 +17307,7 @@
   {
     "issueTitle": "Kamyczki",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Karol Kalinowski",
     "artists": [
       "Karol Kalinowski"
@@ -17320,7 +17320,7 @@
   {
     "issueTitle": "It's lonely at the centre of the Earth",
     "seriesTitle": "",
-    "issueNumber": 0,
+    "issueNumber": null,
     "writer": "Zoe Thorogood",
     "artists": [
       "Zoe Thorogood"

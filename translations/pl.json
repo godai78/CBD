@@ -1,0 +1,57 @@
+{
+	"app": {
+		"pageTitle": "Menedżer Kolekcji Komiksów",
+		"recordCount": "({count} rekordów)"
+	},
+	"search": {
+		"title": "Szukaj komiksów",
+		"seriesPlaceholder": "Szukaj po nazwie serii...",
+		"issueTitlePlaceholder": "Szukaj po tytule numeru...",
+		"writerPlaceholder": "Szukaj po scenarzyście...",
+		"artistPlaceholder": "Szukaj po rysowniku...",
+		"languageFilter": "Wszystkie języki",
+		"publisherFilter": "Wszyscy wydawcy",
+		"yearFilter": "Wszystkie lata",
+		"searchButton": "Szukaj",
+		"addButton": "Dodaj nowy komiks",
+		"importButton": "Importuj z Google Sheets",
+		"exportButton": "Eksportuj do CSV"
+	},
+	"comic": {
+		"title": {
+			"add": "Dodaj nowy komiks"
+		},
+		"fields": {
+			"series": "Seria",
+			"issueTitle": "Tytuł",
+			"issueNumber": "Numer",
+			"writers": "Scenariusz",
+			"artists": "Rysunki",
+			"language": "Język",
+			"publisher": "Wydawca",
+			"year": "Rok wydania"
+		},
+		"actions": {
+			"edit": "Edytuj",
+			"delete": "Usuń",
+			"save": "Zapisz zmiany",
+			"cancel": "Anuluj",
+			"backToList": "← Powrót do listy"
+		},
+		"form": {
+			"writersHint": "(rozdzielone przecinkami)",
+			"artistsHint": "(rozdzielone przecinkami)"
+		}
+	},
+	"messages": {
+		"deleteConfirm": "Czy na pewno chcesz usunąć ten komiks?",
+		"deleteSuccess": "Komiks został usunięty",
+		"saveSuccess": "Komiks został zapisany",
+		"error": "Wystąpił błąd",
+		"loadingError": "Błąd podczas ładowania komiksów. Spróbuj ponownie."
+	},
+	"navigation": {
+		"backToMain": "← Powrót do strony głównej",
+		"backToTop": "Powrót na górę"
+	}
+} 

@@ -1,0 +1,57 @@
+{
+	"app": {
+		"pageTitle": "Comic Collection Manager",
+		"recordCount": "({count} records)"
+	},
+	"search": {
+		"title": "Search Comics",
+		"seriesPlaceholder": "Search by series name...",
+		"issueTitlePlaceholder": "Search by issue title...",
+		"writerPlaceholder": "Search by writer...",
+		"artistPlaceholder": "Search by artist...",
+		"languageFilter": "All Languages",
+		"publisherFilter": "All Publishers",
+		"yearFilter": "All Years",
+		"searchButton": "Search",
+		"addButton": "Add New Comic",
+		"importButton": "Import from Google Sheets",
+		"exportButton": "Export to CSV"
+	},
+	"comic": {
+		"title": {
+			"add": "Add New Comic"
+		},
+		"fields": {
+			"series": "Series",
+			"issueTitle": "Title",
+			"issueNumber": "Issue #",
+			"writers": "Writers",
+			"artists": "Artists",
+			"language": "Language",
+			"publisher": "Publisher",
+			"year": "Publication Year"
+		},
+		"actions": {
+			"edit": "Edit",
+			"delete": "Delete",
+			"save": "Save Changes",
+			"cancel": "Cancel",
+			"backToList": "← Back to Comics List"
+		},
+		"form": {
+			"writersHint": "(comma-separated)",
+			"artistsHint": "(comma-separated)"
+		}
+	},
+	"messages": {
+		"deleteConfirm": "Are you sure you want to delete this comic?",
+		"deleteSuccess": "Comic deleted successfully",
+		"saveSuccess": "Comic saved successfully",
+		"error": "An error occurred",
+		"loadingError": "Error loading comics. Please try again."
+	},
+	"navigation": {
+		"backToMain": "← Back to Main Page",
+		"backToTop": "Back to top"
+	}
+} 

@@ -11,6 +11,8 @@ const port = 3000;
 // Middleware
 app.use(express.json());
 app.use(express.static('.'));
+app.use(express.static('public'));
+app.use('/translations', express.static('translations'));
 
 // Data file path
 const dataFilePath = path.join(__dirname, 'comicDatabase.json');
@@ -188,13 +190,26 @@ app.delete('/api/comics/:id', async (req, res) => {
 // Get unique languages
 app.get('/api/languages', async (req, res) => {
 	try {
-		const data = await fs.readFile(dataFilePath, 'utf8');
-		const comics = JSON.parse(data);
-		const languages = [...new Set(comics.map(comic => comic.language))];
+		const translationsDir = path.join(__dirname, 'translations');
+		const files = await fs.readdir(translationsDir);
+		
+		const languages = files
+			.filter(file => file.endsWith('.json'))
+			.map(file => {
+				const code = file.replace('.json', '');
+				const name = {
+					'en': 'English',
+					'pl': 'Polski',
+					'de': 'Deutsch',
+					'sv': 'Svenska'
+				}[code] || code;
+				return { code, name };
+			});
+
 		res.json(languages);
 	} catch (error) {
-		console.error('Error getting languages:', error);
-		res.status(500).json({ error: 'Error getting languages' });
+		console.error('Error reading translations directory:', error);
+		res.status(500).json({ error: 'Failed to read translations directory' });
 	}
 });
 
@@ -234,6 +249,15 @@ app.post('/api/import', async (req, res) => {
 		console.error('Error importing comics:', error);
 		res.status(500).json({ error: 'Error importing comics' });
 	}
+});
+
+// Serve translation files
+app.get('/translations.json', (req, res) => {
+	res.sendFile(path.join(__dirname, 'translations', 'en.json'));
+});
+
+app.get('/translations.js', (req, res) => {
+	res.sendFile(path.join(__dirname, 'translations', 'translations.js'));
 });
 
 // Start server
