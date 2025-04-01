@@ -82,37 +82,3 @@ For input placeholders:
 ```html
 <input type="text" data-translate-placeholder="search.seriesPlaceholder" placeholder="Search by series name...">
 ```
-
-### Translation Structure
-
-The translation files follow this structure:
-```json
-{
-    "app": {
-        "languageName": "English",
-        "pageTitle": "Comic Collection Manager"
-    },
-    "search": {
-        "title": "Search Comics",
-        "seriesPlaceholder": "Search by series name...",
-        "issueTitlePlaceholder": "Search by issue title...",
-        "writerPlaceholder": "Search by writer...",
-        "artistPlaceholder": "Search by artist...",
-        "languageFilter": "All Languages",
-        "publisherFilter": "All Publishers",
-        "yearFilter": "All Years"
-    },
-    "comic": {
-        "fields": {
-            "series": "Series",
-            "issueTitle": "Title",
-            "issueNumber": "Issue #",
-            "writers": "Writers",
-            "artists": "Artists",
-            "language": "Language",
-            "publisher": "Publisher",
-            "year": "Year"
-        }
-    }
-}
-``` 
