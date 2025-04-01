@@ -247,36 +247,36 @@
 		</div>
 		
 		<div class="search-section">
-			<h2>Search Comics</h2>
+			<h2 data-translate="search.title">Search Comics</h2>
 			<div class="search-group">
-				<input type="text" id="seriesSearch" placeholder="Search by series name..." oninput="updateSeriesSuggestions()" onkeypress="handleKeyPress(event)">
+				<input type="text" id="seriesSearch" data-translate-placeholder="search.seriesPlaceholder" placeholder="Search by series name..." oninput="updateSeriesSuggestions()" onkeypress="handleKeyPress(event)">
 				<div id="seriesSuggestions" class="suggestions"></div>
 			</div>
 			<div class="search-group">
-				<input type="text" id="issueTitleSearch" placeholder="Search by issue title..." oninput="updateIssueTitleSuggestions()" onkeypress="handleKeyPress(event)">
+				<input type="text" id="issueTitleSearch" data-translate-placeholder="search.issueTitlePlaceholder" placeholder="Search by issue title..." oninput="updateIssueTitleSuggestions()" onkeypress="handleKeyPress(event)">
 				<div id="issueTitleSuggestions" class="suggestions"></div>
 			</div>
 			<div class="search-group">
-				<input type="text" id="writerSearch" placeholder="Search by writer..." oninput="updateWriterSuggestions()" onkeypress="handleKeyPress(event)">
+				<input type="text" id="writerSearch" data-translate-placeholder="search.writerPlaceholder" placeholder="Search by writer..." oninput="updateWriterSuggestions()" onkeypress="handleKeyPress(event)">
 				<div id="writerSuggestions" class="suggestions"></div>
 			</div>
 			<div class="search-group">
-				<input type="text" id="artistSearch" placeholder="Search by artist..." oninput="updateArtistSuggestions()" onkeypress="handleKeyPress(event)">
+				<input type="text" id="artistSearch" data-translate-placeholder="search.artistPlaceholder" placeholder="Search by artist..." oninput="updateArtistSuggestions()" onkeypress="handleKeyPress(event)">
 				<div id="artistSuggestions" class="suggestions"></div>
 			</div>
 			<div class="search-group">
 				<select id="languageFilter" onchange="filterComics()">
-					<option value="">All Languages</option>
+					<option value="" data-translate="search.languageFilter">All Languages</option>
 				</select>
 			</div>
 			<div class="search-group">
 				<select id="publisherSearch" onchange="searchComics()">
-					<option value="">All Publishers</option>
+					<option value="" data-translate="search.publisherFilter">All Publishers</option>
 				</select>
 			</div>
 			<div class="search-group">
 				<select id="yearSearch" onchange="searchComics()">
-					<option value="">All Years</option>
+					<option value="" data-translate="search.yearFilter">All Years</option>
 				</select>
 			</div>
 		</div>
@@ -334,8 +334,13 @@
 			const languageSelect = document.getElementById('languageFilter');
 			const languages = [...new Set(comicDatabase.map(comic => comic.language))].sort();
 			
-			// Keep the "All Languages" option
-			languageSelect.innerHTML = '<option value="">All Languages</option>';
+			// Keep the "All Languages" option and translate it
+			const allLanguagesOption = document.createElement('option');
+			allLanguagesOption.value = '';
+			allLanguagesOption.setAttribute('data-translate', 'search.languageFilter');
+			allLanguagesOption.textContent = 'All Languages';
+			languageSelect.innerHTML = '';
+			languageSelect.appendChild(allLanguagesOption);
 			
 			// Add all unique languages from the database
 			languages.forEach(language => {
@@ -353,8 +358,13 @@
 				a.toLowerCase().localeCompare(b.toLowerCase())
 			);
 			
-			// Keep the "All Publishers" option
-			publisherSelect.innerHTML = '<option value="">All Publishers</option>';
+			// Keep the "All Publishers" option and translate it
+			const allPublishersOption = document.createElement('option');
+			allPublishersOption.value = '';
+			allPublishersOption.setAttribute('data-translate', 'search.publisherFilter');
+			allPublishersOption.textContent = 'All Publishers';
+			publisherSelect.innerHTML = '';
+			publisherSelect.appendChild(allPublishersOption);
 			
 			// Add all unique publishers from the database
 			publishers.forEach(publisher => {
@@ -370,8 +380,13 @@
 			const yearSelect = document.getElementById('yearSearch');
 			const years = [...new Set(comicDatabase.map(comic => comic.publicationYear))].sort((a, b) => b - a);
 			
-			// Keep the "All Years" option
-			yearSelect.innerHTML = '<option value="">All Years</option>';
+			// Keep the "All Years" option and translate it
+			const allYearsOption = document.createElement('option');
+			allYearsOption.value = '';
+			allYearsOption.setAttribute('data-translate', 'search.yearFilter');
+			allYearsOption.textContent = 'All Years';
+			yearSelect.innerHTML = '';
+			yearSelect.appendChild(allYearsOption);
 			
 			// Add all unique years from the database
 			years.forEach(year => {
