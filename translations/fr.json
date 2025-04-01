@@ -1,0 +1,46 @@
+{
+    "app": {
+        "languageName": "Français",
+        "pageTitle": "Gestionnaire de Collection de BD"
+    },
+    "search": {
+        "title": "Rechercher des BD",
+        "seriesPlaceholder": "Rechercher par série...",
+        "issueTitlePlaceholder": "Rechercher par titre...",
+        "writerPlaceholder": "Rechercher par scénariste...",
+        "artistPlaceholder": "Rechercher par dessinateur...",
+        "languageFilter": "Toutes les langues",
+        "publisherFilter": "Tous les éditeurs",
+        "yearFilter": "Toutes les années",
+        "searchButton": "Rechercher",
+        "addButton": "Ajouter une BD",
+        "importButton": "Importer depuis Google Sheets",
+        "exportButton": "Exporter en CSV"
+    },
+    "comic": {
+        "fields": {
+            "series": "Série",
+            "issueTitle": "Titre",
+            "issueNumber": "Numéro",
+            "writers": "Scénaristes",
+            "artists": "Dessinateurs",
+            "language": "Langue",
+            "publisher": "Éditeur",
+            "year": "Année"
+        },
+        "actions": {
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "save": "Enregistrer",
+            "cancel": "Annuler"
+        },
+        "messages": {
+            "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette BD ?",
+            "saveSuccess": "BD enregistrée avec succès",
+            "saveError": "Erreur lors de l'enregistrement de la BD",
+            "deleteSuccess": "BD supprimée avec succès",
+            "deleteError": "Erreur lors de la suppression de la BD",
+            "loadError": "Erreur lors du chargement des BD"
+        }
+    }
+} 

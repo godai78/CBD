@@ -69,24 +69,50 @@ To add a new language:
 
 1. Create a new JSON file in the `translations` directory with the language code (e.g., `fr.json` for French)
 2. Copy the structure from `en.json` and translate all values
-3. Add the language name to the mapping in `server.js`:
-```javascript
-const name = {
-    'en': 'English',
-    'pl': 'Polski',
-    'de': 'Deutsch',
-    'sv': 'Svenska',
-    'fr': 'Français'  // Add your new language here
-}[code] || code;
-```
+3. The language will be automatically detected and added to the language selector
+
 ### Using Translations in HTML
 
 To make an element translatable, add the `data-translate` attribute with the appropriate translation key:
 ```html
-<label for="seriesTitle" data-translate="comic.fields.series">Series:</label>
+<label data-translate="comic.fields.series">Series</label>
 ```
 
 For input placeholders:
 ```html
-<input type="text" id="seriesSearch" data-translate="search.seriesPlaceholder" placeholder="Search by series name...">
+<input type="text" data-translate-placeholder="search.seriesPlaceholder" placeholder="Search by series name...">
+```
+
+### Translation Structure
+
+The translation files follow this structure:
+```json
+{
+    "app": {
+        "languageName": "English",
+        "pageTitle": "Comic Collection Manager"
+    },
+    "search": {
+        "title": "Search Comics",
+        "seriesPlaceholder": "Search by series name...",
+        "issueTitlePlaceholder": "Search by issue title...",
+        "writerPlaceholder": "Search by writer...",
+        "artistPlaceholder": "Search by artist...",
+        "languageFilter": "All Languages",
+        "publisherFilter": "All Publishers",
+        "yearFilter": "All Years"
+    },
+    "comic": {
+        "fields": {
+            "series": "Series",
+            "issueTitle": "Title",
+            "issueNumber": "Issue #",
+            "writers": "Writers",
+            "artists": "Artists",
+            "language": "Language",
+            "publisher": "Publisher",
+            "year": "Year"
+        }
+    }
+}
 ``` 

@@ -48,16 +48,16 @@ async function initializeTranslations() {
         const languageSelect = document.getElementById('languageSelect');
         if (languageSelect) {
             languageSelect.innerHTML = ''; // Clear existing options
-            window.availableLanguages.forEach(lang => {
+            Object.keys(window.translations).forEach(langCode => {
                 const option = document.createElement('option');
-                option.value = lang.code;
-                option.textContent = lang.name;
+                option.value = langCode;
+                option.textContent = langCode.toUpperCase();
                 languageSelect.appendChild(option);
             });
             
             // Set initial language
             const savedLang = localStorage.getItem('selectedLanguage') || 'en';
-            if (window.availableLanguages.find(lang => lang.code === savedLang)) {
+            if (Object.keys(window.translations).includes(savedLang)) {
                 languageSelect.value = savedLang;
             } else {
                 languageSelect.value = 'en';
