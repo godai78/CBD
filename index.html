@@ -205,6 +205,39 @@
 			align-items: center;
 			margin-bottom: 20px;
 		}
+		.language-select {
+			padding: 8px 32px 8px 16px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 14px;
+			transition: background-color 0.3s;
+			height: 38px;
+			line-height: 1;
+			width: auto;
+			min-width: 120px;
+			box-sizing: border-box;
+			background-color: #333;
+			color: white;
+			appearance: none;
+			background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+			background-repeat: no-repeat;
+			background-position: right 8px center;
+			background-size: 16px;
+			margin: 0 4px;
+		}
+		.language-select:hover {
+			background-color: #555;
+		}
+		.language-select:focus {
+			outline: none;
+			background-color: #555;
+		}
+		.language-select option {
+			background-color: #333;
+			color: white;
+			padding: 8px;
+		}
 	</style>
 </head>
 <body>
@@ -248,11 +281,24 @@
 			</div>
 		</div>
 		<div class="button-group">
-			<button onclick="searchComics()" data-translate="search.searchButton">Search</button>
+			<button type="submit" data-translate="search.searchButton">Search</button>
 			<a href="add.html" class="add-btn" data-translate="search.addButton">Add New Comic</a>
-			<button onclick="importFromGoogleSheets()" data-translate="search.importButton">Import from Google Sheets</button>
-			<button onclick="exportToCSV()" data-translate="search.exportButton">Export to CSV</button>
-			<div class="language-switcher"></div>
+			<button type="button" onclick="importFromGoogleSheets()" data-translate="search.importButton">Import from Google Sheets</button>
+			<button type="button" onclick="exportToCSV()" data-translate="search.exportButton">Export to CSV</button>
+			<select id="languageSelect" onchange="translatePage()" class="language-select">
+				<option value="en">English</option>
+				<option value="pl">Polski</option>
+				<option value="sv">Svenska</option>
+				<option value="de">Deutsch</option>
+				<option value="fr">Français</option>
+				<option value="es">Español</option>
+				<option value="it">Italiano</option>
+				<option value="pt">Português</option>
+				<option value="ru">Русский</option>
+				<option value="ja">日本語</option>
+				<option value="ko">한국어</option>
+				<option value="zh">中文</option>
+			</select>
 		</div>
 
 		<div class="comics-table">

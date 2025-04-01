@@ -256,8 +256,49 @@ app.get('/translations.json', (req, res) => {
 	res.sendFile(path.join(__dirname, 'translations', 'en.json'));
 });
 
+// Serve translations.js
 app.get('/translations.js', (req, res) => {
-	res.sendFile(path.join(__dirname, 'translations', 'translations.js'));
+	res.setHeader('Content-Type', 'application/javascript');
+	res.sendFile(path.join(__dirname, 'translations.js'));
+});
+
+// Serve translations
+app.get('/translations', async (req, res) => {
+	try {
+		const translationsDir = path.join(__dirname, 'translations');
+		const files = await fs.readdir(translationsDir);
+		const translations = {};
+		const availableLanguages = [];
+		
+		// Language name mapping
+		const languageNames = {
+			'en': 'English',
+			'pl': 'Polski',
+			'sv': 'Svenska',
+			'de': 'Deutsch'
+		};
+		
+		for (const file of files) {
+			if (file.endsWith('.json')) {
+				const langCode = file.replace('.json', '');
+				const filePath = path.join(translationsDir, file);
+				const content = await fs.readFile(filePath, 'utf8');
+				translations[langCode] = JSON.parse(content);
+				availableLanguages.push({
+					code: langCode,
+					name: languageNames[langCode] || langCode
+				});
+			}
+		}
+		
+		res.json({
+			translations: translations,
+			availableLanguages: availableLanguages
+		});
+	} catch (error) {
+		console.error('Error reading translations directory:', error);
+		res.status(500).json({ error: 'Failed to read translations directory' });
+	}
 });
 
 // Start server
