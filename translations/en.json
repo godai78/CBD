@@ -1,35 +1,35 @@
 {
 	"app": {
-		"pageTitle": "Comic Collection Manager",
+		"pageTitle": "Comic collection manager",
 		"recordCount": "({count} records)"
 	},
 	"search": {
-		"title": "Search Comics",
+		"title": "Search comics",
 		"seriesPlaceholder": "Search by series name...",
-		"issueTitlePlaceholder": "Search by issue title...",
+		"issueTitlePlaceholder": "Search by title...",
 		"writerPlaceholder": "Search by writer...",
 		"artistPlaceholder": "Search by artist...",
-		"languageFilter": "All Languages",
-		"publisherFilter": "All Publishers",
-		"yearFilter": "All Years",
+		"languageFilter": "All languages",
+		"publisherFilter": "All publishers",
+		"yearFilter": "All years",
 		"searchButton": "Search",
-		"addButton": "Add New Comic",
+		"addButton": "Add new comic",
 		"importButton": "Import from Google Sheets",
 		"exportButton": "Export to CSV"
 	},
 	"comic": {
 		"title": {
-			"add": "Add New Comic"
+			"add": "Add new comic"
 		},
 		"fields": {
-			"series": "Series Title",
-			"issueTitle": "Issue Title",
-			"issueNumber": "Issue #",
+			"series": "Series",
+			"issueTitle": "Title",
+			"issueNumber": "Number",
 			"writers": "Writers",
 			"artists": "Artists",
 			"language": "Language",
 			"publisher": "Publisher",
-			"year": "Publication Year"
+			"year": "Year"
 		},
 		"form": {
 			"writersHint": "Separate multiple writers with commas",
@@ -38,9 +38,9 @@
 		"actions": {
 			"edit": "Edit",
 			"delete": "Delete",
-			"save": "Save Comic",
+			"save": "Save comic",
 			"cancel": "Cancel",
-			"backToList": "← Back to Comics List"
+			"backToList": "← Back to comics list"
 		}
 	},
 	"messages": {
@@ -51,7 +51,7 @@
 		"loadingError": "Error loading comics. Please try again."
 	},
 	"navigation": {
-		"backToMain": "← Back to Main Page",
+		"backToMain": "← Back to main page",
 		"backToTop": "Back to top"
 	}
 } 

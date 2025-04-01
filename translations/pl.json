@@ -6,7 +6,7 @@
 	"search": {
 		"title": "Szukaj komiksów",
 		"seriesPlaceholder": "Szukaj po nazwie serii...",
-		"issueTitlePlaceholder": "Szukaj po tytule numeru...",
+		"issueTitlePlaceholder": "Szukaj po tytule...",
 		"writerPlaceholder": "Szukaj po scenarzyście...",
 		"artistPlaceholder": "Szukaj po rysowniku...",
 		"languageFilter": "Wszystkie języki",
@@ -23,13 +23,13 @@
 		},
 		"fields": {
 			"series": "Nazwa serii",
-			"issueTitle": "Tytuł numeru",
+			"issueTitle": "Tytuł",
 			"issueNumber": "Numer",
 			"writers": "Scenariusz",
 			"artists": "Rysunki",
 			"language": "Język",
 			"publisher": "Wydawca",
-			"year": "Rok wydania"
+			"year": "Rok"
 		},
 		"form": {
 			"writersHint": "Rozdziel wielu scenarzystów przecinkami",
