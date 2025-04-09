@@ -19,7 +19,8 @@
 	},
 	"comic": {
 		"title": {
-			"add": "Add new comic"
+			"add": "Add new comic",
+			"edit": "Edit comic"
 		},
 		"fields": {
 			"series": "Series",

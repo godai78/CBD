@@ -19,7 +19,8 @@
 	},
 	"comic": {
 		"title": {
-			"add": "Dodaj nowy komiks"
+			"add": "Dodaj nowy komiks",
+			"edit": "Edytuj komiks"
 		},
 		"fields": {
 			"series": "Nazwa serii",

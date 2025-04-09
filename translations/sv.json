@@ -1,57 +1,58 @@
 {
     "app": {
-        "pageTitle": "Serietidningshanterare",
-        "recordCount": "({count} poster)"
+      "pageTitle": "Serietidningssamlingshanterare",
+      "recordCount": "({count} poster)"
     },
     "search": {
-        "title": "Sök serier",
-        "seriesPlaceholder": "Sök efter serienamn...",
-        "issueTitlePlaceholder": "Sök efter nummertitel...",
-        "writerPlaceholder": "Sök efter författare...",
-        "artistPlaceholder": "Sök efter konstnär...",
-        "languageFilter": "Alla språk",
-        "publisherFilter": "Alla utgivare",
-        "yearFilter": "Alla år",
-        "searchButton": "Sök",
-        "addButton": "Lägg till ny serie",
-        "importButton": "Importera från Google Sheets",
-        "exportButton": "Exportera till CSV"
+      "title": "Sök serietidningar",
+      "seriesPlaceholder": "Sök efter serienamn...",
+      "issueTitlePlaceholder": "Sök efter titel...",
+      "writerPlaceholder": "Sök efter författare...",
+      "artistPlaceholder": "Sök efter tecknare...",
+      "languageFilter": "Alla språk",
+      "publisherFilter": "Alla förlag",
+      "yearFilter": "Alla år",
+      "searchButton": "Sök",
+      "addButton": "Lägg till ny serietidning",
+      "importButton": "Importera från Google Sheets",
+      "exportButton": "Exportera till CSV"
     },
     "comic": {
-        "title": {
-            "add": "Lägg till ny serie"
-        },
-        "fields": {
-            "series": "Serienamn",
-            "issueTitle": "Nummer titel",
-            "issueNumber": "Nummer",
-            "writers": "Författare",
-            "artists": "Konstnärer",
-            "language": "Språk",
-            "publisher": "Utgivare",
-            "year": "Utgivningsår"
-        },
-        "actions": {
-            "edit": "Redigera",
-            "delete": "Radera",
-            "save": "Spara serie",
-            "cancel": "Avbryt",
-            "backToList": "← Tillbaka till serielistan"
-        },
-        "form": {
-            "writersHint": "Separera flera författare med kommatecken",
-            "artistsHint": "Separera flera konstnärer med kommatecken"
-        }
+      "title": {
+        "add": "Lägg till ny serietidning",
+        "edit": "Redigera serietidning"
+      },
+      "fields": {
+        "series": "Serie",
+        "issueTitle": "Titel",
+        "issueNumber": "Nummer",
+        "writers": "Författare",
+        "artists": "Tecknare",
+        "language": "Språk",
+        "publisher": "Förlag",
+        "year": "År"
+      },
+      "form": {
+        "writersHint": "Separera flera författare med kommatecken",
+        "artistsHint": "Separera flera tecknare med kommatecken"
+      },
+      "actions": {
+        "edit": "Redigera",
+        "delete": "Radera",
+        "save": "Spara serietidning",
+        "cancel": "Avbryt",
+        "backToList": "← Tillbaka till serietidningslistan"
+      }
     },
     "messages": {
-        "deleteConfirm": "Är du säker på att du vill radera denna serie?",
-        "deleteSuccess": "Serien har raderats",
-        "saveSuccess": "Serien har sparats",
-        "error": "Ett fel uppstod",
-        "loadingError": "Fel vid laddning av serier. Vänligen försök igen."
+      "deleteConfirm": "Är du säker på att du vill radera denna serietidning?",
+      "deleteSuccess": "Serietidningen har raderats",
+      "saveSuccess": "Serietidningen har sparats",
+      "error": "Ett fel inträffade",
+      "loadingError": "Fel vid laddning av serietidningar. Försök igen."
     },
     "navigation": {
-        "backToMain": "← Tillbaka till huvudsidan",
-        "backToTop": "Tillbaka till toppen"
+      "backToMain": "← Tillbaka till huvudsidan",
+      "backToTop": "Tillbaka till toppen"
     }
-} 
+   }

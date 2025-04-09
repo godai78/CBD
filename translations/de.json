@@ -1,57 +1,58 @@
 {
     "app": {
-        "pageTitle": "Comic-Sammlungsverwalter",
-        "recordCount": "({count} Einträge)"
+      "pageTitle": "Comic-Sammlungsverwaltung",
+      "recordCount": "({count} Einträge)"
     },
     "search": {
-        "title": "Comics Suchen",
-        "seriesPlaceholder": "Nach Seriennamen suchen...",
-        "issueTitlePlaceholder": "Nach Hefttitel suchen...",
-        "writerPlaceholder": "Nach Autor suchen...",
-        "artistPlaceholder": "Nach Zeichner suchen...",
-        "languageFilter": "Alle Sprachen",
-        "publisherFilter": "Alle Verlage",
-        "yearFilter": "Alle Jahre",
-        "searchButton": "Suchen",
-        "addButton": "Neuen Comic Hinzufügen",
-        "importButton": "Aus Google Sheets Importieren",
-        "exportButton": "Als CSV Exportieren"
+      "title": "Comics durchsuchen",
+      "seriesPlaceholder": "Nach Serienname suchen...",
+      "issueTitlePlaceholder": "Nach Titel suchen...",
+      "writerPlaceholder": "Nach Autor suchen...",
+      "artistPlaceholder": "Nach Zeichner suchen...",
+      "languageFilter": "Alle Sprachen",
+      "publisherFilter": "Alle Verlage",
+      "yearFilter": "Alle Jahre",
+      "searchButton": "Suchen",
+      "addButton": "Neuen Comic hinzufügen",
+      "importButton": "Aus Google Sheets importieren",
+      "exportButton": "Als CSV exportieren"
     },
     "comic": {
-        "title": {
-            "add": "Neuen Comic Hinzufügen"
-        },
-        "fields": {
-            "series": "Serienname",
-            "issueTitle": "Hefttitel",
-            "issueNumber": "Nummer",
-            "writers": "Autoren",
-            "artists": "Zeichner",
-            "language": "Sprache",
-            "publisher": "Verlag",
-            "year": "Erscheinungsjahr"
-        },
-        "actions": {
-            "edit": "Bearbeiten",
-            "delete": "Löschen",
-            "save": "Comic Speichern",
-            "cancel": "Abbrechen",
-            "backToList": "← Zurück zur Comic-Liste"
-        },
-        "form": {
-            "writersHint": "Mehrere Autoren durch Kommas trennen",
-            "artistsHint": "Mehrere Zeichner durch Kommas trennen"
-        }
+      "title": {
+        "add": "Neuen Comic hinzufügen",
+        "edit": "Comic bearbeiten"
+      },
+      "fields": {
+        "series": "Serie",
+        "issueTitle": "Titel",
+        "issueNumber": "Nummer",
+        "writers": "Autoren",
+        "artists": "Zeichner",
+        "language": "Sprache",
+        "publisher": "Verlag",
+        "year": "Jahr"
+      },
+      "form": {
+        "writersHint": "Mehrere Autoren mit Kommas trennen",
+        "artistsHint": "Mehrere Zeichner mit Kommas trennen"
+      },
+      "actions": {
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "save": "Comic speichern",
+        "cancel": "Abbrechen",
+        "backToList": "← Zurück zur Comic-Liste"
+      }
     },
     "messages": {
-        "deleteConfirm": "Sind Sie sicher, dass Sie diesen Comic löschen möchten?",
-        "deleteSuccess": "Comic erfolgreich gelöscht",
-        "saveSuccess": "Comic erfolgreich gespeichert",
-        "error": "Ein Fehler ist aufgetreten",
-        "loadingError": "Fehler beim Laden der Comics. Bitte versuchen Sie es erneut."
+      "deleteConfirm": "Möchten Sie diesen Comic wirklich löschen?",
+      "deleteSuccess": "Comic erfolgreich gelöscht",
+      "saveSuccess": "Comic erfolgreich gespeichert",
+      "error": "Ein Fehler ist aufgetreten",
+      "loadingError": "Fehler beim Laden der Comics. Bitte versuchen Sie es erneut."
     },
     "navigation": {
-        "backToMain": "← Zurück zur Hauptseite",
-        "backToTop": "Nach oben"
+      "backToMain": "← Zurück zur Hauptseite",
+      "backToTop": "Zurück nach oben"
     }
-} 
+   }
