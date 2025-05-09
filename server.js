@@ -15,70 +15,14 @@ app.use(express.static('public'));
 app.use('/translations', express.static('translations'));
 
 // Data file path
-const dataFilePath = path.join(__dirname, 'comicDatabase.json');
+const dataFilePath = path.join(__dirname, 'comics.json');
 
 // Initialize data file if it doesn't exist
 async function initializeDataFile() {
 	try {
 		await fs.access(dataFilePath);
 	} catch {
-		const initialData = [
-			{
-				id: 1,
-				seriesTitle: "The Amazing Spider-Man",
-				issueTitle: "Spider-Man!",
-				issueNumber: 1,
-				writers: ["Stan Lee"],
-				artists: ["Steve Ditko"],
-				language: "English",
-				publisher: "Marvel Comics",
-				publicationYear: 1963
-			},
-			{
-				id: 2,
-				seriesTitle: "Batman",
-				issueTitle: "The Case of the Chemical Syndicate",
-				issueNumber: 1,
-				writers: ["Bill Finger"],
-				artists: ["Bob Kane", "Jerry Robinson"],
-				language: "English",
-				publisher: "DC Comics",
-				publicationYear: 1940
-			},
-			{
-				id: 3,
-				seriesTitle: "Akira",
-				issueTitle: "The Beginning",
-				issueNumber: 1,
-				writers: ["Katsuhiro Otomo"],
-				artists: ["Katsuhiro Otomo"],
-				language: "Japanese",
-				publisher: "Kodansha",
-				publicationYear: 1982
-			},
-			{
-				id: 4,
-				seriesTitle: "Watchmen",
-				issueTitle: "At Midnight, All the Agents...",
-				issueNumber: 1,
-				writers: ["Alan Moore"],
-				artists: ["Dave Gibbons"],
-				language: "English",
-				publisher: "DC Comics",
-				publicationYear: 1986
-			},
-			{
-				id: 5,
-				seriesTitle: "Tintin",
-				issueTitle: "Tintin in the Land of the Soviets",
-				issueNumber: 1,
-				writers: ["Hergé"],
-				artists: ["Hergé"],
-				language: "French",
-				publisher: "Casterman",
-				publicationYear: 1929
-			}
-		];
+		const initialData = [];
 		await fs.writeFile(dataFilePath, JSON.stringify(initialData, null, 2));
 	}
 }
