@@ -722,9 +722,13 @@
 
 		// Function to import from Google Sheets
 		async function importFromGoogleSheets() {
+			const sheetId = prompt('Enter Google Sheet ID to import from:');
+			if (!sheetId) return;
 			try {
 				const response = await fetch('/api/import', {
-					method: 'POST'
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ sheetId })
 				});
 				if (!response.ok) throw new Error('Import failed');
 				const result = await response.json();

@@ -172,27 +172,33 @@ app.get('/api/publishers', async (req, res) => {
 
 // Import comics from Google Sheets
 app.post('/api/import', async (req, res) => {
-	try {
-		// Clear existing data
-		await fs.writeFile(dataFilePath, JSON.stringify([], null, 2));
+    try {
+        const { sheetId } = req.body;
+        if (!sheetId) {
+            return res.status(400).json({ error: 'No Google Sheet ID provided' });
+        }
+        // Clear existing data
+        await fs.writeFile(dataFilePath, JSON.stringify([], null, 2));
 
-		// Import new data from Google Sheets
-		const comics = await importFromGoogleSheets();
-		
-		// Add IDs to imported comics
-		const comicsWithIds = comics.map((comic, index) => ({
-			...comic,
-			id: index + 1
-		}));
+        // Import new data from Google Sheets
+        const comics = await importFromGoogleSheets(sheetId);
+        // Add IDs to imported comics
+        const comicsWithIds = comics.map((comic, index) => ({
+            ...comic,
+            id: index + 1
+        }));
+        // Write to file
+        await fs.writeFile(dataFilePath, JSON.stringify(comicsWithIds, null, 2));
+        res.json({ message: `Successfully imported ${comicsWithIds.length} comics` });
+    } catch (error) {
+        console.error('Error importing comics:', error);
+        res.status(500).json({ error: 'Error importing comics' });
+    }
+});
 
-		// Write to file
-		await fs.writeFile(dataFilePath, JSON.stringify(comicsWithIds, null, 2));
-		
-		res.json({ message: `Successfully imported ${comicsWithIds.length} comics` });
-	} catch (error) {
-		console.error('Error importing comics:', error);
-		res.status(500).json({ error: 'Error importing comics' });
-	}
+// Serve index.html at root
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Serve translation files
